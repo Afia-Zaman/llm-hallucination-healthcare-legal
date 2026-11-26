@@ -1,0 +1,17 @@
+model_label,domain,tier,perfect_rate,constraint_score,n
+Claude-Haiku-4.5,Healthcare,adversarial,1.0,10.0,8
+Claude-Haiku-4.5,Healthcare,canonical,0.9,9.8,10
+Claude-Haiku-4.5,Legal,adversarial,1.0,10.0,8
+Claude-Haiku-4.5,Legal,canonical,1.0,10.0,10
+DeepSeek-V4-Flash,Healthcare,adversarial,1.0,10.0,8
+DeepSeek-V4-Flash,Healthcare,canonical,1.0,10.0,10
+DeepSeek-V4-Flash,Legal,adversarial,1.0,10.0,8
+DeepSeek-V4-Flash,Legal,canonical,1.0,10.0,10
+GPT-4o-mini,Healthcare,adversarial,1.0,10.0,8
+GPT-4o-mini,Healthcare,canonical,1.0,10.0,10
+GPT-4o-mini,Legal,adversarial,1.0,10.0,8
+GPT-4o-mini,Legal,canonical,1.0,10.0,10
+Gemini-3.1-Flash-Lite,Healthcare,adversarial,1.0,10.0,8
+Gemini-3.1-Flash-Lite,Healthcare,canonical,1.0,10.0,10
+Gemini-3.1-Flash-Lite,Legal,adversarial,1.0,10.0,8
+Gemini-3.1-Flash-Lite,Legal,canonical,1.0,10.0,10

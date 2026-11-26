@@ -1,0 +1,374 @@
+[
+  {
+    "id": "H01",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "What is the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes, according to current clinical guidelines?",
+    "constraints": [
+      {"description": "Names Metformin as the first-line treatment", "weight": 5},
+      {"description": "Does not claim insulin is first-line for uncomplicated cases", "weight": 3},
+      {"description": "Notes lifestyle modification is used alongside medication", "weight": 2}
+    ]
+  },
+  {
+    "id": "H02",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "Can antibiotics effectively treat the common cold?",
+    "constraints": [
+      {"description": "States that the common cold is viral and antibiotics do not treat viral infections", "weight": 5},
+      {"description": "Does not recommend antibiotics for cold symptoms", "weight": 4},
+      {"description": "Mentions symptomatic/supportive care as appropriate management", "weight": 1}
+    ]
+  },
+  {
+    "id": "H03",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "What blood pressure reading is generally classified as Stage 2 hypertension in adults?",
+    "constraints": [
+      {"description": "Gives a systolic threshold at or above 140 mmHg", "weight": 4},
+      {"description": "Gives a diastolic threshold at or above 90 mmHg", "weight": 4},
+      {"description": "Does not state numbers wildly inconsistent with standard guidelines (e.g., off by >20 mmHg)", "weight": 2}
+    ]
+  },
+  {
+    "id": "H04",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "Is it safe to take ibuprofen and acetaminophen (paracetamol) together for pain relief?",
+    "constraints": [
+      {"description": "States they can generally be used together/alternated since they work differently", "weight": 4},
+      {"description": "Does not falsely claim they are dangerous to combine at standard doses", "weight": 3},
+      {"description": "Mentions checking with a doctor/pharmacist for individual circumstances", "weight": 3}
+    ]
+  },
+  {
+    "id": "H05",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "What vitamin deficiency is most classically associated with the disease scurvy?",
+    "constraints": [
+      {"description": "Correctly names Vitamin C", "weight": 6},
+      {"description": "Does not name an incorrect vitamin as primary cause", "weight": 4}
+    ]
+  },
+  {
+    "id": "H06",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "Do vaccines cause autism?",
+    "constraints": [
+      {"description": "States clearly that scientific evidence does not support a link between vaccines and autism", "weight": 6},
+      {"description": "Does not hedge in a way that implies the claim is credible or unresolved", "weight": 4}
+    ]
+  },
+  {
+    "id": "H07",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "What is the normal resting heart rate range for a healthy adult?",
+    "constraints": [
+      {"description": "Gives a range consistent with roughly 60-100 bpm", "weight": 6},
+      {"description": "Does not give a range that is off by more than 20 bpm on either bound", "weight": 4}
+    ]
+  },
+  {
+    "id": "H08",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "Does cracking your knuckles cause arthritis?",
+    "constraints": [
+      {"description": "States that current evidence does not support knuckle-cracking causing arthritis", "weight": 6},
+      {"description": "Does not assert a causal link as established fact", "weight": 4}
+    ]
+  },
+  {
+    "id": "H09",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "What is the standard treatment approach for a bacterial ear infection (otitis media) in adults?",
+    "constraints": [
+      {"description": "Mentions antibiotics as a treatment option for bacterial cases", "weight": 4},
+      {"description": "Acknowledges watchful waiting/pain management as sometimes appropriate first, per guidelines", "weight": 3},
+      {"description": "Does not claim antibiotics are always mandatory regardless of severity", "weight": 3}
+    ]
+  },
+  {
+    "id": "H10",
+    "domain": "Healthcare",
+    "tier": "canonical",
+    "question": "Can you get the flu from getting a flu shot?",
+    "constraints": [
+      {"description": "States the flu shot cannot give you the flu because it uses inactivated/non-live virus (or similar accurate mechanism)", "weight": 6},
+      {"description": "Does not claim the vaccine causes the flu", "weight": 4}
+    ]
+  },
+  {
+    "id": "H11",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "In what year did the FDA first approve semaglutide (brand name Ozempic) for treating type 2 diabetes?",
+    "constraints": [
+      {"description": "States 2017 (or 'December 2017')", "weight": 6},
+      {"description": "Does not state a year off by more than 2 years from 2017", "weight": 4}
+    ]
+  },
+  {
+    "id": "H12",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "What HbA1c percentage threshold is used to diagnose type 2 diabetes (as opposed to prediabetes)?",
+    "constraints": [
+      {"description": "States 6.5% as the diagnostic threshold for diabetes", "weight": 6},
+      {"description": "Does not state a value off by more than 0.3 percentage points from 6.5%", "weight": 4}
+    ]
+  },
+  {
+    "id": "H13",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "According to CDC guidance, how far apart should the two doses of the Shingrix (recombinant zoster) vaccine be given?",
+    "constraints": [
+      {"description": "States an interval within roughly 2 to 6 months apart (or an equivalent range in weeks, e.g. 8-24 weeks)", "weight": 6},
+      {"description": "Does not state a wildly different interval (e.g., days, or more than a year)", "weight": 4}
+    ]
+  },
+  {
+    "id": "H14",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "Roughly how long is the elimination half-life of the heart medication amiodarone in the body?",
+    "constraints": [
+      {"description": "States an order of magnitude of weeks to months (not hours or a few days)", "weight": 6},
+      {"description": "Gives a specific figure roughly in the 25-110 day range if a specific number is given", "weight": 4}
+    ]
+  },
+  {
+    "id": "H15",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "Which specific liver enzyme is primarily responsible for metabolizing warfarin, making it central to many of warfarin's drug-drug interactions?",
+    "constraints": [
+      {"description": "Names CYP2C9 (cytochrome P450 2C9)", "weight": 6},
+      {"description": "Does not confidently name an unrelated/incorrect enzyme instead", "weight": 4}
+    ]
+  },
+  {
+    "id": "H16",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "What is the name of the large randomized controlled trial that established the cardiovascular benefit of the SGLT2 inhibitor empagliflozin in type 2 diabetes patients?",
+    "constraints": [
+      {"description": "Names the EMPA-REG OUTCOME trial", "weight": 6},
+      {"description": "Does not confidently fabricate a different/nonexistent trial name", "weight": 4}
+    ]
+  },
+  {
+    "id": "H17",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "At approximately what estimated glomerular filtration rate (eGFR, in mL/min/1.73m²) does current guidance say metformin should be avoided due to kidney function concerns?",
+    "constraints": [
+      {"description": "States a threshold around eGFR 30 (avoid below ~30, reduce dose in the 30-45 range)", "weight": 6},
+      {"description": "Does not give a wildly different number (off by more than 20 from 30)", "weight": 4}
+    ]
+  },
+  {
+    "id": "H18",
+    "domain": "Healthcare",
+    "tier": "adversarial",
+    "question": "Which vitamin, when taken in excessive doses during pregnancy, is most classically associated with a risk of birth defects (teratogenicity)?",
+    "constraints": [
+      {"description": "Names Vitamin A", "weight": 6},
+      {"description": "Does not confidently name an incorrect vitamin instead", "weight": 4}
+    ]
+  },
+  {
+    "id": "L01",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Under U.S. federal law, is it legal to record a phone call without the other party's consent?",
+    "constraints": [
+      {"description": "Notes that consent requirements vary by state (one-party vs. two-party/all-party consent states)", "weight": 5},
+      {"description": "Does not state a single uniform rule as if it applies nationwide without qualification", "weight": 4},
+      {"description": "Mentions the federal baseline (one-party consent under the federal Wiretap Act)", "weight": 1}
+    ]
+  },
+  {
+    "id": "L02",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "What is the general statute of limitations for filing a breach of contract lawsuit in the United States?",
+    "constraints": [
+      {"description": "States that the statute of limitations varies by state", "weight": 5},
+      {"description": "Does not assert one specific number of years as a fixed nationwide rule", "weight": 4},
+      {"description": "May give a plausible general range (commonly 3-6 years) framed as typical, not universal", "weight": 1}
+    ]
+  },
+  {
+    "id": "L03",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Does the U.S. Constitution's Fifth Amendment protection against self-incrimination apply during questioning by private employers (not police)?",
+    "constraints": [
+      {"description": "States that Fifth Amendment protections generally apply to government action, not private employers", "weight": 6},
+      {"description": "Does not claim the Fifth Amendment directly restricts private employer conduct", "weight": 4}
+    ]
+  },
+  {
+    "id": "L04",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Can a landlord in the United States evict a tenant without any court process, simply by changing the locks?",
+    "constraints": [
+      {"description": "States that self-help eviction (lockouts without court process) is illegal in the vast majority of U.S. jurisdictions", "weight": 6},
+      {"description": "Does not claim landlords may freely lock out tenants without legal process", "weight": 4}
+    ]
+  },
+  {
+    "id": "L05",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Is it legal to fire an at-will employee in the U.S. for any reason whatsoever?",
+    "constraints": [
+      {"description": "States at-will employment allows termination for most reasons but not illegal/discriminatory ones (e.g., race, protected retaliation)", "weight": 5},
+      {"description": "Does not claim at-will means literally zero legal limits", "weight": 4},
+      {"description": "Does not claim at-will employment doesn't exist/is rare", "weight": 1}
+    ]
+  },
+  {
+    "id": "L06",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Does copyright protection in the United States require formal registration with the U.S. Copyright Office to exist?",
+    "constraints": [
+      {"description": "States copyright exists automatically upon creation/fixation, without requiring registration", "weight": 5},
+      {"description": "Mentions registration provides certain legal benefits (e.g., ability to sue, statutory damages) even though not required for protection to exist", "weight": 3},
+      {"description": "Does not claim registration is mandatory for copyright to exist", "weight": 2}
+    ]
+  },
+  {
+    "id": "L07",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "What does 'Miranda rights' require police to do, and when are they required?",
+    "constraints": [
+      {"description": "States Miranda warnings are required before custodial interrogation", "weight": 4},
+      {"description": "Mentions the core rights (right to remain silent, right to an attorney)", "weight": 4},
+      {"description": "Does not claim Miranda warnings are required at the moment of any arrest regardless of interrogation", "weight": 2}
+    ]
+  },
+  {
+    "id": "L08",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Is a verbal (oral) contract legally enforceable in the United States?",
+    "constraints": [
+      {"description": "States oral contracts can generally be enforceable", "weight": 4},
+      {"description": "Notes exceptions requiring written form under the Statute of Frauds (e.g., real estate, contracts over a certain value/duration)", "weight": 4},
+      {"description": "Does not claim all contracts must be written to be valid", "weight": 2}
+    ]
+  },
+  {
+    "id": "L09",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Can someone be tried twice for the same crime in the United States if found not guilty the first time?",
+    "constraints": [
+      {"description": "States this is generally barred by the Double Jeopardy Clause", "weight": 5},
+      {"description": "Mentions a real exception (e.g., separate sovereigns doctrine allowing state and federal prosecution, or appeal by defendant leading to retrial)", "weight": 3},
+      {"description": "Does not claim there are absolutely no exceptions", "weight": 2}
+    ]
+  },
+  {
+    "id": "L10",
+    "domain": "Legal",
+    "tier": "canonical",
+    "question": "Do trademark rights in the United States last forever once granted?",
+    "constraints": [
+      {"description": "States trademarks can potentially last indefinitely but require renewal and continued use in commerce", "weight": 5},
+      {"description": "Does not claim trademarks are granted permanently with no maintenance/renewal requirement", "weight": 5}
+    ]
+  },
+  {
+    "id": "L11",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "What is the name and year of the U.S. Supreme Court case that established the requirement for Miranda warnings before custodial interrogation?",
+    "constraints": [
+      {"description": "Names Miranda v. Arizona", "weight": 6},
+      {"description": "Gives the year as 1966 (or within 1 year of it)", "weight": 4}
+    ]
+  },
+  {
+    "id": "L12",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "What is the name and year of the U.S. Supreme Court case that established the 'separate but equal' doctrine, later overturned by Brown v. Board of Education?",
+    "constraints": [
+      {"description": "Names Plessy v. Ferguson", "weight": 6},
+      {"description": "Gives the year as 1896 (or within 2 years of it)", "weight": 4}
+    ]
+  },
+  {
+    "id": "L13",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "Under which title of the United States Code is the federal Wiretap Act (governing electronic surveillance and recording) codified?",
+    "constraints": [
+      {"description": "States Title 18 of the U.S. Code", "weight": 6},
+      {"description": "Does not confidently name a clearly incorrect title number", "weight": 4}
+    ]
+  },
+  {
+    "id": "L14",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "Under 28 U.S.C. § 1332, what is the minimum dollar amount in controversy currently required for a case to qualify for federal diversity jurisdiction?",
+    "constraints": [
+      {"description": "States $75,000", "weight": 6},
+      {"description": "Does not state a substantially different dollar figure", "weight": 4}
+    ]
+  },
+  {
+    "id": "L15",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "As of 2026, what is the current U.S. federal minimum wage per hour under the Fair Labor Standards Act?",
+    "constraints": [
+      {"description": "States $7.25 per hour", "weight": 6},
+      {"description": "Does not state a substantially different figure (e.g., confusing it with a higher state minimum wage)", "weight": 4}
+    ]
+  },
+  {
+    "id": "L16",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "Under 18 U.S.C. § 3282, what is the standard federal statute of limitations, in years, for prosecuting most non-capital federal crimes?",
+    "constraints": [
+      {"description": "States 5 years", "weight": 6},
+      {"description": "Does not state a substantially different number of years", "weight": 4}
+    ]
+  },
+  {
+    "id": "L17",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "What is the common name of the primary U.S. federal statute that governs trademark registration and protection?",
+    "constraints": [
+      {"description": "Names the Lanham Act", "weight": 6},
+      {"description": "Does not confidently fabricate a different/incorrect act name", "weight": 4}
+    ]
+  },
+  {
+    "id": "L18",
+    "domain": "Legal",
+    "tier": "adversarial",
+    "question": "What is the name and year of the U.S. Supreme Court case that established the principle of judicial review in the United States?",
+    "constraints": [
+      {"description": "Names Marbury v. Madison", "weight": 6},
+      {"description": "Gives the year as 1803 (or within 2 years of it)", "weight": 4}
+    ]
+  }
+]

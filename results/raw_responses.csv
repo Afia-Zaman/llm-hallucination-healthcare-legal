@@ -1,0 +1,1977 @@
+model_label,provider,question_id,domain,question,response,finish_reason,error
+GPT-4o-mini,openai,H01,Healthcare,"What is the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes, according to current clinical guidelines?","According to current clinical guidelines, the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes is metformin. Metformin is typically prescribed due to its effectiveness in lowering blood glucose levels, its favorable safety profile, and its potential benefits in weight management and cardiovascular health. It's important for patients to also engage in lifestyle modifications, such as dietary changes and increased physical activity, alongside medication. Always consult with a healthcare provider for personalized treatment recommendations.",stop,
+GPT-4o-mini,openai,H02,Healthcare,Can antibiotics effectively treat the common cold?,"No, antibiotics are not effective in treating the common cold. The common cold is caused by viruses, and antibiotics are designed to target bacterial infections, not viral ones. Using antibiotics for viral infections can lead to antibiotic resistance and other side effects without providing any benefit. The best approach to managing a cold typically involves rest, hydration, and over-the-counter medications to relieve symptoms. If you have concerns about your health or if symptoms worsen, it's important to consult a healthcare professional.",stop,
+GPT-4o-mini,openai,H03,Healthcare,What blood pressure reading is generally classified as Stage 2 hypertension in adults?,Stage 2 hypertension in adults is generally classified as having a blood pressure reading of 140/90 mmHg or higher.,stop,
+GPT-4o-mini,openai,H04,Healthcare,Is it safe to take ibuprofen and acetaminophen (paracetamol) together for pain relief?,"Yes, it is generally considered safe to take ibuprofen and acetaminophen (paracetamol) together for pain relief, as they work through different mechanisms and do not interact negatively with each other. This combination can be effective for managing pain and reducing fever.
+
+However, it's important to follow the recommended dosages for each medication and to consider any personal health conditions or medications you may be taking. Always consult with a healthcare professional before combining medications, especially if you have underlying health issues or are taking other medications. They can provide personalized advice based on your specific situation.",stop,
+GPT-4o-mini,openai,H05,Healthcare,What vitamin deficiency is most classically associated with the disease scurvy?,"Scurvy is most classically associated with a deficiency of vitamin C (ascorbic acid). This vitamin is essential for the synthesis of collagen, and its deficiency leads to symptoms such as fatigue, gum disease, and skin issues.",stop,
+GPT-4o-mini,openai,H06,Healthcare,Do vaccines cause autism?,"No, vaccines do not cause autism. This misconception originated from a now-discredited study published in 1998 by Andrew Wakefield, which falsely linked the MMR (measles, mumps, and rubella) vaccine to autism. Subsequent extensive research has found no evidence to support a connection between vaccines and autism. Major health organizations, including the Centers for Disease Control and Prevention (CDC), the World Health Organization (WHO), and the American Academy of Pediatrics, all affirm that vaccines are safe and effective in preventing serious diseases.",stop,
+GPT-4o-mini,openai,H07,Healthcare,What is the normal resting heart rate range for a healthy adult?,"The normal resting heart rate for a healthy adult typically ranges from 60 to 100 beats per minute (bpm). However, athletes or individuals who are very physically fit may have resting heart rates below 60 bpm, sometimes as low as 40 bpm, which can still be considered healthy for them. It's important to note that individual factors such as age, fitness level, and overall health can influence resting heart rate.",stop,
+GPT-4o-mini,openai,H08,Healthcare,Does cracking your knuckles cause arthritis?,"No, cracking your knuckles does not cause arthritis. This common myth has been debunked by scientific research. Studies have shown that habitual knuckle cracking does not lead to arthritis or joint damage. The sound you hear when you crack your knuckles is caused by the release of gas bubbles in the synovial fluid of the joints. While some people may experience temporary discomfort or swelling after cracking their knuckles, it is not linked to the development of arthritis. However, if you experience pain or discomfort in your joints, it's a good idea to consult a healthcare professional.",stop,
+GPT-4o-mini,openai,H09,Healthcare,What is the standard treatment approach for a bacterial ear infection (otitis media) in adults?,"The standard treatment approach for a bacterial ear infection (otitis media) in adults typically involves the following steps:
+
+1. **Diagnosis**: A healthcare provider will confirm the diagnosis of otitis media through a physical examination, often using an otoscope to look for signs of infection, such as fluid in the middle ear or inflammation of the eardrum.
+
+2. **Observation**: In many cases, especially if the symptoms are mild and the patient is otherwise healthy, a period of observation (watchful waiting) may be recommended for 48 to 72 hours. This is to see if the infection resolves on its own, particularly in cases where the infection is not severe.
+
+3. **Antibiotics**: If symptoms are severe, if the patient is at high risk for complications, or if the infection does not improve after the observation period, antibiotics may be prescribed. Common antibiotics used include:
+   - Amoxicillin
+   - Amoxicillin-clavulanate (Augmentin)
+   - In cases of penicillin allergy or resistance, alternatives like doxycycline or a respiratory fluoroquinolone may be considered.
+
+4. **Symptomatic Relief**: Over-the-counter pain relievers, such as acetaminophen or ibuprofen, can help manage pain and fever associated with the infection. Warm compresses may also provide comfort.
+
+5. **Follow-Up**: If symptoms do not improve within a few days of starting antibiotics, or if they worsen, a follow-up appointment may be necessary to reassess the condition.
+
+6. **Consideration of Referral**: In cases of recurrent otitis media or complications, referral to an ear, nose, and throat (ENT) specialist may be warranted for further evaluation and management.
+
+It's important for patients to follow their healthcare provider's recommendations and complete the full course of antibiotics if prescribed, even if symptoms improve before finishing the medication.",stop,
+GPT-4o-mini,openai,H10,Healthcare,Can you get the flu from getting a flu shot?,"No, you cannot get the flu from getting a flu shot. The flu vaccine is made using inactivated (killed) viruses or a weakened form of the virus, which cannot cause the flu. Some people may experience mild side effects after receiving the vaccine, such as soreness at the injection site, low-grade fever, or fatigue, but these are not the same as having the flu. These side effects are generally mild and temporary. It's important to get vaccinated to help protect yourself and others from the flu.",stop,
+GPT-4o-mini,openai,L01,Legal,"Under U.S. federal law, is it legal to record a phone call without the other party's consent?","Under U.S. federal law, it is generally legal to record a phone call if at least one party to the conversation consents to the recording. This is known as ""one-party consent."" However, some states have stricter laws that require all parties involved in the conversation to consent to the recording, known as ""two-party consent"" or ""all-party consent"" laws.
+
+It's important to check the specific laws in your state, as they can vary significantly. If you are considering recording a phone call, it's advisable to obtain consent from all parties involved to avoid any legal issues.",stop,
+GPT-4o-mini,openai,L02,Legal,What is the general statute of limitations for filing a breach of contract lawsuit in the United States?,"The statute of limitations for filing a breach of contract lawsuit in the United States generally varies by state and can range from 3 to 10 years. Most states have a statute of limitations of around 4 to 6 years for written contracts, while oral contracts typically have a shorter statute of limitations, often around 2 to 3 years. 
+
+It's important to check the specific laws in the state where the contract was formed or where the breach occurred, as these laws can differ significantly. Additionally, certain circumstances may affect the statute of limitations, such as the discovery of the breach or any tolling agreements between the parties. Always consider consulting with a legal professional for advice tailored to your specific situation.",stop,
+GPT-4o-mini,openai,L03,Legal,Does the U.S. Constitution's Fifth Amendment protection against self-incrimination apply during questioning by private employers (not police)?,"The Fifth Amendment of the U.S. Constitution protects individuals from self-incrimination, but this protection primarily applies in the context of governmental actions, such as police interrogations or court proceedings. The amendment does not extend to questioning by private employers.
+
+In general, if a private employer conducts an investigation or questioning, the employee is not entitled to the same protections against self-incrimination that they would have in a criminal context involving law enforcement. This means that an employee can be compelled to answer questions from a private employer, and those answers can potentially be used against them in a legal context, such as in a civil lawsuit or in a criminal case if the employer reports the information to law enforcement.
+
+However, there are other legal protections that may apply in the workplace, such as protections against retaliation for whistleblowing or protections under specific employment laws. If an employee believes that their rights are being violated during questioning by a private employer, they may want to consult with an attorney for guidance on their specific situation.",stop,
+GPT-4o-mini,openai,L04,Legal,"Can a landlord in the United States evict a tenant without any court process, simply by changing the locks?","No, a landlord in the United States cannot evict a tenant simply by changing the locks without going through the proper legal process. This practice, known as ""self-help eviction,"" is generally illegal in most states. Landlords are required to follow the legal eviction process, which typically involves providing proper notice to the tenant and obtaining a court order if the tenant does not vacate the property.
+
+If a landlord attempts to evict a tenant without going through the courts, the tenant may have grounds to take legal action against the landlord for unlawful eviction. It's important for both landlords and tenants to understand their rights and responsibilities under local and state laws regarding eviction. If you have specific concerns or questions about a situation, it may be beneficial to consult with a legal professional familiar with landlord-tenant law in your area.",stop,
+GPT-4o-mini,openai,L05,Legal,Is it legal to fire an at-will employee in the U.S. for any reason whatsoever?,"In the United States, at-will employment means that an employer can terminate an employee for almost any reason, as long as it is not illegal. However, there are several important exceptions to this general rule:
+
+1. **Discrimination**: An employee cannot be fired based on protected characteristics such as race, color, national origin, sex, disability, age, or religion, as outlined by federal, state, and local anti-discrimination laws.
+
+2. **Retaliation**: Employees cannot be fired for engaging in protected activities, such as filing a complaint about discrimination or harassment, reporting unsafe working conditions, or participating in an investigation.
+
+3. **Public Policy**: Some states recognize a public policy exception, which means an employee cannot be fired for reasons that violate public policy, such as refusing to engage in illegal activities or taking time off to vote or serve on a jury.
+
+4. **Implied Contracts**: In some cases, an implied contract may exist based on company policies, employee handbooks, or verbal assurances, which could limit an employer's ability to terminate an employee without cause.
+
+5. **Good Faith and Fair Dealing**: Some states recognize a covenant of good faith and fair dealing, which means that employers should not terminate employees in bad faith or with malice.
+
+While at-will employment provides significant flexibility for employers, it is essential to understand these exceptions to avoid potential legal issues. If you have specific concerns or situations in mind, consulting with a legal professional is advisable.",stop,
+GPT-4o-mini,openai,L06,Legal,Does copyright protection in the United States require formal registration with the U.S. Copyright Office to exist?,"No, copyright protection in the United States does not require formal registration with the U.S. Copyright Office to exist. Copyright protection is automatic upon the creation of an original work of authorship that is fixed in a tangible medium of expression. This means that as soon as you create a qualifying work, such as a piece of writing, music, or art, you automatically hold the copyright to that work.
+
+However, while registration is not required for copyright protection, there are significant benefits to registering a work with the U.S. Copyright Office. For example, registration is necessary if you wish to bring a lawsuit for copyright infringement in federal court, and it can also provide statutory damages and attorney's fees in case of infringement, which are not available for unregistered works. Additionally, registration serves as public notice of your copyright claim.",stop,
+GPT-4o-mini,openai,L07,Legal,"What does 'Miranda rights' require police to do, and when are they required?","""Miranda rights"" refer to the legal rights that law enforcement must inform a suspect of before conducting a custodial interrogation. These rights are derived from the U.S. Supreme Court case Miranda v. Arizona (1966). The primary requirements of Miranda rights are as follows:
+
+1. **Right to Remain Silent**: The suspect must be informed that they have the right to remain silent and that anything they say can be used against them in court.
+
+2. **Right to an Attorney**: The suspect must be informed of their right to have an attorney present during questioning, and if they cannot afford one, an attorney will be provided for them.
+
+Miranda rights are required when two conditions are met:
+
+1. **Custody**: The suspect is in custody, meaning they are not free to leave. This typically occurs when a person is formally arrested or when their freedom of movement is significantly restricted.
+
+2. **Interrogation**: The police are engaging in questioning or conduct that is likely to elicit an incriminating response from the suspect.
+
+If law enforcement fails to provide these warnings before a custodial interrogation, any statements made by the suspect may be deemed inadmissible in court.",stop,
+GPT-4o-mini,openai,L08,Legal,Is a verbal (oral) contract legally enforceable in the United States?,"Yes, a verbal (oral) contract can be legally enforceable in the United States, but there are important considerations to keep in mind:
+
+1. **Elements of a Contract**: For a verbal contract to be enforceable, it must meet the same basic elements as a written contract: offer, acceptance, consideration (something of value exchanged), and mutual intent to enter into the agreement.
+
+2. **Statute of Frauds**: Certain types of contracts must be in writing to be enforceable under the Statute of Frauds, which varies by state. Common examples include contracts for the sale of real estate, contracts that cannot be performed within one year, and contracts for the sale of goods over a certain amount (typically $500 under the Uniform Commercial Code).
+
+3. **Proof and Evidence**: Verbal contracts can be more challenging to prove in court compared to written contracts. Without written documentation, it often comes down to the credibility of the parties involved and any witnesses or corroborating evidence.
+
+4. **State Laws**: Contract law can vary significantly from state to state. It's important to consult local laws or a legal professional for specific guidance related to verbal contracts in your jurisdiction.
+
+In summary, while verbal contracts can be enforceable, their enforceability can depend on the type of contract, the ability to prove its terms, and the applicable state laws.",stop,
+GPT-4o-mini,openai,L09,Legal,Can someone be tried twice for the same crime in the United States if found not guilty the first time?,"In the United States, the principle of ""double jeopardy"" protects individuals from being tried twice for the same crime after a verdict of not guilty. This protection is enshrined in the Fifth Amendment of the U.S. Constitution, which states that no person shall ""be subject for the same offense to be twice put in jeopardy of life or limb."" 
+
+However, there are some exceptions and nuances to this rule:
+
+1. **Different Jurisdictions**: A person can be tried for the same conduct in different jurisdictions. For example, if a crime violates both state and federal laws, a person could potentially be tried in both state and federal court.
+
+2. **Different Charges**: If the prosecution brings different charges based on the same conduct, a person could be tried for those different charges. 
+
+3. **Mistrials**: If a trial ends in a mistrial (for example, due to a hung jury), the defendant can be retried.
+
+4. **Civil vs. Criminal Cases**: A person can be tried in a civil court after being acquitted in a criminal court for the same act, as these are considered different legal proceedings.
+
+In summary, while double jeopardy generally prevents a person from being tried again for the same crime after an acquittal, there are specific circumstances under which retrials can occur.",stop,
+GPT-4o-mini,openai,L10,Legal,Do trademark rights in the United States last forever once granted?,"In the United States, trademark rights do not last forever automatically once granted. While a trademark can potentially last indefinitely, certain conditions must be met to maintain those rights. Here are the key points regarding the duration of trademark rights:
+
+1. **Use in Commerce**: A trademark must be actively used in commerce. If a trademark is not used for a continuous period of three years, it may be considered abandoned, and rights can be lost.
+
+2. **Renewal**: Trademarks must be renewed periodically. For federal trademarks, the owner must file specific maintenance documents with the United States Patent and Trademark Office (USPTO) at regular intervals:
+   - A Declaration of Use (or Excusable Nonuse) must be filed between the 5th and 6th years after registration.
+   - A renewal application must be filed every 10 years thereafter.
+
+3. **Non-Use or Abandonment**: If a trademark is not used in commerce or if the owner does not take steps to maintain the registration, the trademark can be canceled or deemed abandoned.
+
+4. **Enforcement**: Trademark rights also require enforcement. If a trademark owner fails to enforce their rights against infringers, they may risk losing those rights through a legal doctrine known as ""laches"" or through a finding of abandonment.
+
+In summary, while trademark rights can last indefinitely, they require ongoing use, maintenance, and enforcement to remain valid.",stop,
+Claude-Haiku-4.5,anthropic,H01,Healthcare,"What is the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes, according to current clinical guidelines?","# First-Line Pharmacological Treatment for Type 2 Diabetes
+
+## Current Consensus
+
+**Metformin** remains the recommended first-line agent according to major guidelines (ADA, EASD, and others), though this is evolving based on individual patient factors.
+
+### Key Reasons for Metformin:
+
+- **Efficacy**: Reduces HbA1c by ~1.5%
+- **Safety profile**: Well-tolerated with decades of use
+- **Cardiovascular benefits**: Neutral or slightly protective
+- **Cost**: Inexpensive and widely available
+- **Weight**: Neutral or modest weight loss
+- **No hypoglycemia risk** (when used alone)
+
+---
+
+## Important Caveat: Individualized Approach
+
+Current guidelines increasingly emphasize **patient-centered, individualized therapy** rather than strict algorithms. Consider:
+
+| Factor | Preferred Agent |
+|--------|-----------------|
+| **ASCVD/HF** | GLP-1 RA or SGLT2i |
+| **CKD** | SGLT2i |
+| **Obesity** | GLP-1 RA |
+| **Cost-sensitive** | Metformin |
+| **Renal impairment** | Avoid metformin; consider alternatives |
+
+---
+
+## Modern Guidelines Perspective
+
+- **ADA 2024**: Recommends considering GLP-1 RAs or SGLT2i early if cardiovascular/renal disease or weight loss needed
+- **EASD**: Supports individualized selection based on comorbidities
+- Metformin remains appropriate for uncomplicated T2DM without contraindications
+
+**Bottom line**: While metformin is still standard, modern practice increasingly tailors initial therapy to patient characteristics and comorbidities.",end_turn,
+Claude-Haiku-4.5,anthropic,H02,Healthcare,Can antibiotics effectively treat the common cold?,"No, antibiotics are not effective for treating the common cold in most cases.
+
+**Why they don't work:**
+- Colds are caused by viruses (like rhinoviruses), and antibiotics only kill bacteria
+- Viruses and bacteria are fundamentally different organisms requiring different treatments
+
+**What actually helps:**
+- Rest, fluids, and time (colds typically resolve in 7-10 days)
+- Over-the-counter symptom relief (decongestants, throat lozenges, etc.)
+- Honey or cough drops for sore throats
+
+**When antibiotics might be used:**
+- If a *secondary bacterial infection* develops (like bacterial pneumonia or sinusitis)
+- A doctor would need to confirm a bacterial infection first
+
+**Why this matters:**
+Using antibiotics unnecessarily contributes to antibiotic resistance, making these drugs less effective for serious infections where they're actually needed.
+
+If symptoms are severe or last longer than expected, it's worth seeing a doctor to rule out complications, but they'll likely confirm that antibiotics aren't needed for a straightforward viral cold.",end_turn,
+Claude-Haiku-4.5,anthropic,H03,Healthcare,What blood pressure reading is generally classified as Stage 2 hypertension in adults?,"# Stage 2 Hypertension Blood Pressure Reading
+
+According to current guidelines, **Stage 2 hypertension** in adults is classified as:
+
+## **≥140/90 mmHg**
+
+### Breakdown:
+- **Systolic pressure:** 140 mmHg or higher, **OR**
+- **Diastolic pressure:** 90 mmHg or higher
+
+### Context:
+This classification follows the 2017 ACC/AHA guidelines. Stage 2 hypertension indicates a significant elevation in blood pressure that typically requires medication treatment along with lifestyle modifications.
+
+**Note:** For comparison:
+- Stage 1 hypertension = 130-139 systolic or 80-89 diastolic
+- Normal blood pressure = Less than 120/80 mmHg",end_turn,
+Claude-Haiku-4.5,anthropic,H04,Healthcare,Is it safe to take ibuprofen and acetaminophen (paracetamol) together for pain relief?,"# Taking Ibuprofen and Acetaminophen Together
+
+**Short answer:** It's generally considered safe when done correctly, but requires careful attention.
+
+## Key guidelines:
+
+**Dosing matters most**
+- Take them at *different times* rather than simultaneously
+- Stagger doses (e.g., ibuprofen at noon, acetaminophen at 2pm)
+- Stay within recommended limits for each drug separately
+- Don't exceed acetaminophen: 3-4g/day; ibuprofen: 1.2g/day (without medical supervision)
+
+**Why this works**
+- They use different pain-relief mechanisms
+- Spacing them out reduces overdose risk
+- Some doctors recommend this combination for moderate pain
+
+## Important cautions:
+
+- **Acetaminophen risk**: Easy to overdose since it's in many cold/flu products—check all labels
+- **Ibuprofen risks**: Can cause stomach irritation, especially with long-term use
+- **Liver/kidney concerns**: Both drugs stress these organs; higher risk if you have existing conditions
+- **Drug interactions**: May interact with other medications
+
+## Better approach:
+
+Consult your doctor or pharmacist before combining, especially if you:
+- Have liver or kidney disease
+- Take other medications
+- Need pain relief regularly
+
+They can recommend the safest strategy for your situation.",end_turn,
+Claude-Haiku-4.5,anthropic,H05,Healthcare,What vitamin deficiency is most classically associated with the disease scurvy?,"# Vitamin C Deficiency and Scurvy
+
+**Vitamin C (ascorbic acid)** deficiency is the classic cause of scurvy.
+
+## Key Points:
+
+**Why Vitamin C is essential:**
+- Required for collagen synthesis and cross-linking
+- Acts as a cofactor for prolyl and lysyl hydroxylases
+- Maintains connective tissue integrity
+
+**Classic clinical features of scurvy:**
+- Bleeding gums and tooth loss
+- Poor wound healing
+- Petechiae and ecchymoses
+- Joint pain and swelling
+- Anemia
+- Fatigue and weakness
+
+**Historical context:**
+- Common in sailors on long voyages (18th-19th centuries) due to lack of fresh fruits and vegetables
+- Led to the discovery that citrus fruits could prevent the disease
+
+**Modern occurrence:**
+- Rare in developed countries
+- May occur in individuals with severely restricted diets, malabsorption, or certain medical conditions",end_turn,
+Claude-Haiku-4.5,anthropic,H06,Healthcare,Do vaccines cause autism?,"No. Multiple large studies involving millions of children have found no link between vaccines and autism.
+
+The original 1998 study claiming this connection was fraudulent—the author lost his medical license, and the paper was retracted. Subsequent research has consistently shown:
+
+- Autism signs often become noticeable around the same age children receive certain vaccines, but this is coincidental timing, not causation
+- Autism rates are similar in vaccinated and unvaccinated populations
+- Autism has genetic and developmental origins identified through neuroscience research
+
+If you have concerns about vaccines or autism, a pediatrician can discuss the actual evidence and address specific questions.",end_turn,
+Claude-Haiku-4.5,anthropic,H07,Healthcare,What is the normal resting heart rate range for a healthy adult?,"# Normal Resting Heart Rate for Adults
+
+The typical range for a healthy adult is **60–100 beats per minute (bpm)**.
+
+## Factors that influence resting heart rate:
+
+- **Fitness level** — Athletes often have lower rates (40–60 bpm)
+- **Age** — Heart rate tends to increase slightly with age
+- **Stress and anxiety** — Elevate heart rate
+- **Caffeine and stimulants** — Increase heart rate
+- **Body position** — Sitting vs. lying down affects the measurement
+- **Overall health** — Certain conditions can raise or lower it
+
+## When to measure:
+For the most accurate reading, check your pulse after sitting quietly for at least 5 minutes, ideally in the morning before getting out of bed.
+
+If your resting heart rate is consistently outside the normal range or changes significantly, it's worth discussing with a healthcare provider.",end_turn,
+Claude-Haiku-4.5,anthropic,H08,Healthcare,Does cracking your knuckles cause arthritis?,"# Knuckle Cracking and Arthritis
+
+**The short answer: No, there's no scientific evidence that cracking your knuckles causes arthritis.**
+
+## What research shows:
+
+- Multiple studies have found no link between knuckle cracking and arthritis development
+- The most famous study followed a researcher who cracked only one hand's knuckles for 60 years—both hands remained equally healthy
+- People who crack their knuckles don't have higher arthritis rates than those who don't
+
+## What actually happens when you crack:
+
+The popping sound comes from gas bubbles forming and collapsing in the fluid around your joints, not from damage.
+
+## Potential downsides (though minor):
+
+- Habitual cracking *might* slightly reduce grip strength over time
+- It could cause swelling if done excessively
+- It may be annoying to others
+
+So while cracking your knuckles won't give you arthritis, there's also no particular benefit to doing it. If it bothers you or others, it's worth breaking the habit—but you don't need to worry about long-term joint damage.",end_turn,
+Claude-Haiku-4.5,anthropic,H09,Healthcare,What is the standard treatment approach for a bacterial ear infection (otitis media) in adults?,"# Standard Treatment for Acute Otitis Media in Adults
+
+## Initial Assessment
+- **Diagnosis**: Otoscopy showing middle ear effusion with signs of infection (erythema, bulging, fluid level)
+- **Severity evaluation**: Mild, moderate, or severe based on symptoms and otoscopic findings
+
+## First-Line Treatment
+
+### Antibiotics
+**Amoxicillin** (standard first choice)
+- Dose: 500 mg three times daily or 875 mg twice daily
+- Duration: 7-10 days
+- Covers: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*
+
+### Alternative Antibiotics
+- **Amoxicillin-clavulanate**: If resistant organisms suspected
+- **Azithromycin or fluoroquinolones**: For penicillin allergy
+- **Cephalosporins**: Cross-reactivity consideration in severe penicillin allergy
+
+## Supportive Care
+- **Analgesia**: Acetaminophen or NSAIDs (ibuprofen)
+- **Decongestants**: Nasal saline, pseudoephedrine (limited evidence)
+- **Avoid ototoxic agents**
+
+## Watchful Waiting Option
+- For mild cases without severe symptoms
+- Requires reliable follow-up in 48-72 hours
+- Antibiotics started if no improvement
+
+## When to Refer/Escalate
+- Severe symptoms or high fever
+- Immunocompromised patients
+- Recurrent infections (>4 episodes/year)
+- Complications (mastoiditis, meningitis)
+- Persistent effusion >3 months
+
+## Follow-up
+- Reassess if no improvement in 48-72 hours
+- Consider imaging if complications suspected
+
+**Note**: Otitis media is less common in adults than children; consider alternative diagnoses.",end_turn,
+Claude-Haiku-4.5,anthropic,H10,Healthcare,Can you get the flu from getting a flu shot?,"No, you cannot get the flu from the standard flu shot. Here's why:
+
+**Inactivated flu vaccine** (the most common type) contains killed virus particles, so there's no way it can cause infection.
+
+**Live attenuated flu vaccine** (the nasal spray) uses weakened virus that's designed not to cause illness in healthy people, though it occasionally causes mild symptoms.
+
+**What people sometimes experience:**
+- Mild side effects like arm soreness, low-grade fever, or body aches—these are signs your immune system is responding, not the flu itself
+- Coincidental timing: if someone gets sick shortly after vaccination, they may have caught the flu from something else before immunity developed
+
+**The bottom line:** The vaccine protects against flu; it doesn't cause it. Any flu-like symptoms after vaccination are typically mild and temporary, whereas actual flu is much more severe.",end_turn,
+Claude-Haiku-4.5,anthropic,L01,Legal,"Under U.S. federal law, is it legal to record a phone call without the other party's consent?","It depends on your state's laws, which vary significantly:
+
+**Two-party consent states** (about half the U.S.): All parties to a call must consent to recording. Recording without consent is illegal, even if you're part of the conversation.
+
+**One-party consent states**: You can legally record a call if you're a participant, even without the other party knowing. Federal law allows this under the ""one-party consent"" rule.
+
+**Key nuances:**
+- If you're recording someone *else's* conversation you're not part of, that's generally illegal everywhere
+- Recording in-person conversations follows similar state-by-state rules
+- Some states have specific exceptions (like for law enforcement)
+- Workplace recording has additional legal complexities
+
+**Practical advice:**
+- Check your specific state's law before recording
+- When in doubt, get explicit consent
+- Some states require notification even in one-party consent jurisdictions
+
+The federal wiretapping statute sets a floor (one-party consent), but states can impose stricter requirements. This is an area where state law matters more than federal law for most people.",end_turn,
+Claude-Haiku-4.5,anthropic,L02,Legal,What is the general statute of limitations for filing a breach of contract lawsuit in the United States?,"# Statute of Limitations for Breach of Contract
+
+The general statute of limitations for breach of contract lawsuits in the United States is **4-6 years**, though this varies significantly by state and contract type.
+
+## Key variations:
+
+**Written contracts**: Most states allow **4-6 years** from the breach date
+
+**Oral contracts**: Often shorter—typically **3-4 years** in many states
+
+**Specific contract types**:
+- Sales of goods (UCC): Usually **4 years**
+- Real estate contracts: Often **5-10 years**
+- Promissory notes: May be **6-10 years**
+
+## Important considerations:
+
+- **State-specific rules**: Each state sets its own deadlines, so the applicable law matters
+- **Discovery rule**: Some states start the clock when the breach is discovered, not when it occurred
+- **Tolling**: Circumstances may pause or extend the deadline (e.g., defendant's absence from the state)
+- **Contract language**: Some contracts specify their own limitations periods
+
+## Practical takeaway:
+
+If you're considering a breach of contract claim, **consult an attorney in your state promptly**—waiting too long risks losing your right to sue entirely.",end_turn,
+Claude-Haiku-4.5,anthropic,L03,Legal,Does the U.S. Constitution's Fifth Amendment protection against self-incrimination apply during questioning by private employers (not police)?,"# Fifth Amendment and Private Employers
+
+**Short answer: No, not directly.**
+
+The Fifth Amendment's self-incrimination protection applies only to **government action**, not private conduct. This is a fundamental limitation called the ""state action doctrine.""
+
+## Key distinctions:
+
+**Police/Government questioning:**
+- You have Fifth Amendment rights
+- You can refuse to answer and remain silent
+- Adverse inferences from silence are generally prohibited
+
+**Private employer questioning:**
+- No Fifth Amendment protection
+- You can be required to answer questions as a condition of employment
+- Refusing to answer can result in discipline or termination
+- However, you *can* be fired for refusing to answer (the employer can't use your silence against you in a *criminal* case, but can use it internally)
+
+## Important caveats:
+
+- **Other protections may apply**: Labor laws, union agreements, or whistleblower statutes might protect you
+- **Criminal investigation context**: If questioning occurs as part of a criminal investigation, different rules may apply
+- **State constitutions**: Some state constitutions offer broader protections
+
+If you're facing employer questioning in a potentially serious situation, consulting an employment attorney would be wise to understand what protections actually apply to your circumstances.",end_turn,
+Claude-Haiku-4.5,anthropic,L04,Legal,"Can a landlord in the United States evict a tenant without any court process, simply by changing the locks?","# No, that's illegal in all U.S. states
+
+A landlord cannot legally evict a tenant by changing locks, removing belongings, or shutting off utilities. This is called a ""self-help eviction"" and violates tenant rights laws nationwide.
+
+## Why it's prohibited
+
+- **Due process requirement**: Tenants have a constitutional right to a court hearing before losing housing
+- **State laws**: Every state requires formal eviction proceedings through the courts
+- **Consequences for landlords**: They can face liability for:
+  - Damages (often treble/triple damages)
+  - Tenant attorney fees
+  - Criminal charges in some cases
+
+## The legal process
+
+Landlords must instead:
+1. Provide proper notice (timing varies by state and reason)
+2. File an eviction case in court
+3. Obtain a judgment from a judge
+4. Have a sheriff enforce the eviction order
+
+## If this happens to you
+
+If a landlord attempts a self-help eviction, you should:
+- Document everything
+- Contact a local legal aid organization or tenant rights group
+- Consult an attorney about your options
+
+The specific rules vary by state, so checking your state or local tenant rights resources is worthwhile if you're facing this situation.",end_turn,
+Claude-Haiku-4.5,anthropic,L05,Legal,Is it legal to fire an at-will employee in the U.S. for any reason whatsoever?,"Not quite. While at-will employment is the default in most U.S. states, there are significant legal limits:
+
+**You cannot fire someone for:**
+- Protected class status (race, color, religion, sex, national origin, age 40+, disability, genetic information)
+- Exercising legal rights (voting, jury duty, military service)
+- Whistleblowing or reporting illegal activity
+- Filing workers' compensation claims
+- Taking protected leave (FMLA, medical leave)
+- Union organizing or activities
+- Refusing illegal orders
+
+**Additional protections vary by:**
+- State (some have broader protections than federal law)
+- Industry (some sectors have specific rules)
+- Employment contracts (which override at-will status)
+- Public policy exceptions (varies by state)
+
+**The practical reality:**
+Employers can still fire for almost any reason that isn't explicitly prohibited, but they need to be careful. Timing matters—firing someone right after they report a safety violation looks suspicious, even if the stated reason is different.
+
+If you're facing a termination, it's worth consulting an employment lawyer in your state, since protections vary significantly. If you're an employer, documenting legitimate business reasons for terminations is important.
+
+Is there a specific situation you're asking about?",end_turn,
+Claude-Haiku-4.5,anthropic,L06,Legal,Does copyright protection in the United States require formal registration with the U.S. Copyright Office to exist?,"# Copyright Registration in the U.S.
+
+No, formal registration is **not required** for copyright protection to exist in the United States.
+
+## Key Points
+
+**Automatic Protection**
+- Copyright attaches automatically when an original work is fixed in a tangible medium of expression
+- This has been true since the Copyright Act of 1976
+
+**Registration Benefits**
+However, registration does provide important legal advantages:
+- Creates a public record of the copyright claim
+- Enables the copyright owner to sue for infringement in federal court
+- Allows recovery of statutory damages and attorney's fees (if registered before infringement or within 3 months of publication)
+- Establishes prima facie evidence in court
+
+## Practical Implication
+
+While you don't *need* to register to own the copyright, **registration is highly recommended** if you want meaningful legal recourse against infringers, since statutory damages and attorney's fees are often what make enforcement worthwhile.
+
+So the distinction: copyright exists automatically, but registration unlocks the strongest legal remedies.",end_turn,
+Claude-Haiku-4.5,anthropic,L07,Legal,"What does 'Miranda rights' require police to do, and when are they required?","# Miranda Rights: Requirements and Timing
+
+## What Police Must Do
+
+Police must inform suspects of:
+- The right to remain silent
+- That anything said can be used against them in court
+- The right to an attorney
+- That an attorney will be provided if they can't afford one
+
+## When They're Required
+
+Miranda warnings are needed when:
+- A suspect is **in custody** (not free to leave)
+- **AND** police conduct **interrogation** (questioning intended to elicit incriminating responses)
+
+Both conditions must be present. For example:
+- A routine traffic stop typically doesn't require Miranda (not custodial)
+- Questioning at a police station usually does (custodial + interrogation)
+
+## Important Limitations
+
+- **Voluntary statements** made without questioning don't require Miranda
+- **Public safety exception**: police can ask limited questions without warning if immediate danger exists
+- Failure to give Miranda doesn't make evidence inadmissible—it only prevents *statements* from being used (though physical evidence obtained from those statements may still be admissible)
+- Miranda applies to custodial interrogation, not to all police interactions
+
+The key principle: Miranda protects suspects' right to know their rights and choose whether to speak, but doesn't prevent all questioning or evidence collection.",end_turn,
+Claude-Haiku-4.5,anthropic,L08,Legal,Is a verbal (oral) contract legally enforceable in the United States?,"# Verbal Contracts in the US
+
+Yes, verbal contracts are generally legally enforceable, but with important limitations.
+
+## When They're Enforceable
+
+Oral agreements can create binding contracts if they include:
+- Offer and acceptance
+- Consideration (something of value exchanged)
+- Intent to be bound
+- Mutual understanding of terms
+
+## Key Limitation: The Statute of Frauds
+
+Many verbal contracts **cannot** be enforced if they fall into categories requiring written documentation, such as:
+- Real estate sales or leases (typically over 1 year)
+- Contracts that can't be completed within 1 year
+- Marriage-related agreements
+- Executor/estate debts
+- Guarantees of another person's debt
+
+## Practical Challenges
+
+Even when legal, oral contracts are difficult to enforce because:
+- **Proof is hard** — it's your word against theirs
+- **Terms may be disputed** — what exactly was agreed?
+- **Evidence is limited** — no documentation to reference
+
+## Best Practice
+
+While oral contracts can be valid, **getting agreements in writing** is strongly advisable. Written contracts provide clarity, evidence, and protection for all parties.
+
+The specific rules vary by state, so consulting a local attorney about your situation is wise.",end_turn,
+Claude-Haiku-4.5,anthropic,L09,Legal,Can someone be tried twice for the same crime in the United States if found not guilty the first time?,"# Double Jeopardy Protection
+
+No, not in the straightforward way you're describing. The Fifth Amendment protects against ""double jeopardy""—being tried twice for the same offense in the same jurisdiction after acquittal.
+
+## Important exceptions:
+
+**Different jurisdictions can try you separately:**
+- Federal and state courts can each prosecute you for the same conduct
+- Different states can prosecute you separately
+- This is called the ""dual sovereignty doctrine""
+
+**Different charges from the same conduct:**
+- You can be tried for multiple distinct crimes arising from one incident (e.g., assault and battery from the same event)
+
+**Mistrials and appeals:**
+- If a trial ends in mistrial, a retrial is allowed
+- If a conviction is overturned on appeal (not acquittal), retrial is possible
+
+**New evidence:**
+- Generally doesn't override double jeopardy protections, even if it emerges later
+
+The key distinction: once a jury acquits you in a particular court, that specific jurisdiction cannot retry you for that same crime.",end_turn,
+Claude-Haiku-4.5,anthropic,L10,Legal,Do trademark rights in the United States last forever once granted?,"# Trademark Duration in the U.S.
+
+No, but they can potentially last indefinitely with proper maintenance.
+
+## Key points:
+
+**Initial registration:** A federal trademark lasts **10 years** from the date of registration.
+
+**Renewals:** It can be renewed indefinitely for additional 10-year periods, as long as the mark is:
+- Still in use in commerce
+- Renewal applications are filed on time (between years 9-10, then every 10 years after)
+
+**Maintenance requirements:** Between years 5-6, owners must file a ""Declaration of Use"" showing the mark is actively being used.
+
+## Practical effect
+
+While there's no absolute expiration date, trademark rights will be **lost if**:
+- The owner stops using the mark and doesn't renew
+- The mark becomes generic or abandoned
+- Renewal deadlines are missed
+
+So trademark rights are potentially perpetual, but only if the owner actively maintains and uses them. This differs from patents (which expire) and copyrights (which last a set term).",end_turn,
+Gemini-3.1-Flash-Lite,google,H01,Healthcare,"What is the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes, according to current clinical guidelines?","According to major clinical guidelines—including those from the **American Diabetes Association (ADA)** and the **European Association for the Study of Diabetes (EASD)**—the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes is **metformin**, provided there are no contraindications.
+
+Here is a breakdown of the current clinical approach:
+
+### 1. Metformin as the Foundation
+Metformin remains the preferred initial pharmacologic agent for the treatment of type 2 diabetes due to:
+*   **Efficacy:** It is highly effective at lowering HbA1c.
+*   **Safety Profile:** It has a low risk of hypoglycemia when used as monotherapy.
+*   **Weight:** It is weight-neutral or associated with modest weight loss.
+*   **Cost:** It is inexpensive and widely available.
+*   **Long-term data:** It has a well-established track record of safety and cardiovascular benefits.
+
+### 2. The Shift Toward ""Patient-Centered"" Care
+While metformin is the standard first-line therapy, modern guidelines emphasize that the choice of medication should be **patient-centered**, particularly if the patient has established comorbidities. 
+
+If a patient has specific high-risk conditions at the time of diagnosis, guidelines suggest that clinicians may consider starting with—or adding—other classes of medication alongside or instead of metformin:
+
+*   **For patients with established Atherosclerotic Cardiovascular Disease (ASCVD), Heart Failure (HF), or Chronic Kidney Disease (CKD):** Guidelines often recommend the early addition of **SGLT2 inhibitors** (e.g., empagliflozin, dapagliflozin) or **GLP-1 receptor agonists** (e.g., semaglutide, liraglutide), regardless of the patient’s baseline HbA1c or metformin use, due to their proven cardiorenal protective benefits.
+*   **For patients with a high priority for weight loss:** GLP-1 receptor agonists or dual GIP/GLP-1 receptor agonists (e.g., tirzepatide) are increasingly prioritized.
+
+### 3. Early Combination Therapy
+Current guidelines also acknowledge that for many patients, **early combination therapy** (starting two medications at once) may be more effective than starting with metformin monotherapy. This is particularly relevant for patients with a high baseline HbA1c (e.g., >1.5% above their target), as it can help reach glycemic goals faster and potentially delay the progression of beta-cell failure.
+
+### 4. Lifestyle Interventions
+It is important to note that pharmacological treatment is intended to be used **in conjunction with**, not as a replacement for, comprehensive lifestyle management, which includes:
+*   Medical nutrition therapy (healthy eating patterns).
+*   Physical activity.
+*   Smoking cessation.
+*   Weight management.
+
+***
+
+**Disclaimer:** *I am an AI, not a doctor. Clinical guidelines can change, and individual treatment plans depend on a patient's specific medical history, kidney function, and cardiovascular risk profile. Please consult with a healthcare professional or endocrinologist for medical advice tailored to a specific diagnosis.*",STOP,
+Gemini-3.1-Flash-Lite,google,H02,Healthcare,Can antibiotics effectively treat the common cold?,"The short answer is **no**. Antibiotics **cannot** treat the common cold.
+
+Here is a breakdown of why this is the case and why it is important to understand the difference:
+
+### 1. Antibiotics kill bacteria, not viruses
+The common cold is caused by **viruses** (most commonly rhinoviruses). Antibiotics are designed specifically to kill or inhibit the growth of **bacteria**. Because viruses have a different biological structure than bacteria, antibiotics have no effect on them. Taking an antibiotic for a viral infection will not make you feel better, help you recover faster, or prevent you from spreading the cold to others.
+
+### 2. The dangers of unnecessary antibiotic use
+Using antibiotics when they are not needed—such as for a cold, the flu, or most sore throats—is harmful for several reasons:
+
+*   **Antibiotic Resistance:** This is one of the world’s most pressing public health threats. When you take antibiotics unnecessarily, bacteria in your body can develop ""resistance,"" meaning they evolve to survive the drugs. If you later develop a serious bacterial infection (like pneumonia or a staph infection), the antibiotics that should have cured you may no longer work.
+*   **Side Effects:** Antibiotics can cause unpleasant side effects, including nausea, diarrhea, stomach pain, and rashes.
+*   **Disruption of Microbiome:** Antibiotics kill ""good"" bacteria in your gut along with the ""bad"" ones. This can lead to secondary issues, such as yeast infections or digestive problems, by upsetting the natural balance of your body’s flora.
+
+### 3. When should you see a doctor?
+While a cold is viral and will resolve on its own, some symptoms can indicate a secondary bacterial infection (such as a sinus infection, ear infection, or bronchitis) that *might* require antibiotics. You should consult a healthcare provider if:
+
+*   Your symptoms last longer than 10 days without improvement.
+*   You have a very high fever (over 103°F or 39.4°C).
+*   You have difficulty breathing or wheezing.
+*   Your symptoms improve but then suddenly get much worse.
+*   You have a weakened immune system or underlying chronic health conditions.
+
+### How to treat a cold
+Since there is no ""cure"" for the common cold, treatment focuses on managing symptoms while your immune system fights off the virus:
+*   **Rest:** Give your body energy to recover.
+*   **Hydration:** Drink plenty of water, broth, or juice.
+*   **Symptom relief:** Over-the-counter medications (like decongestants, pain relievers, or cough suppressants) can help manage discomfort, but they do not shorten the duration of the illness.
+*   **Soothing measures:** Use a humidifier, gargle with salt water, or use honey (for adults and children over 1 year old) to soothe a sore throat.
+
+***Disclaimer:** I am an AI, not a doctor. If you are concerned about your symptoms, please consult a medical professional.*",STOP,
+Gemini-3.1-Flash-Lite,google,H03,Healthcare,What blood pressure reading is generally classified as Stage 2 hypertension in adults?,"According to the current guidelines from the American College of Cardiology (ACC) and the American Heart Association (AHA), **Stage 2 hypertension** is defined as a blood pressure reading of:
+
+*   **Systolic (top number): 140 mm Hg or higher**
+    **OR**
+*   **Diastolic (bottom number): 90 mm Hg or higher**
+
+### Important Considerations:
+*   **The ""Or"" Rule:** If your systolic and diastolic numbers fall into two different categories, the higher category is used to classify your blood pressure. For example, if your reading is 135/92, you would be classified as having Stage 2 hypertension because the diastolic number (92) is in the Stage 2 range.
+*   **Diagnosis:** A single high reading does not necessarily mean you have hypertension. Doctors typically diagnose hypertension based on the average of two or more readings taken on separate occasions.
+*   **Hypertensive Crisis:** If your blood pressure readings suddenly exceed **180/120 mm Hg**, wait five minutes and test again. If readings remain at or above this level, **contact your doctor immediately.** If you have signs of organ damage (such as chest pain, shortness of breath, back pain, numbness/weakness, change in vision, or difficulty speaking), seek emergency medical care (call 911) right away.
+
+***Disclaimer:** I am an AI, not a doctor. If you are concerned about your blood pressure readings, please consult a healthcare professional for an accurate diagnosis and personalized medical advice.*",STOP,
+Gemini-3.1-Flash-Lite,google,H04,Healthcare,Is it safe to take ibuprofen and acetaminophen (paracetamol) together for pain relief?,"*Disclaimer: I am an AI, not a doctor. You should consult with a healthcare professional or pharmacist before combining medications, especially if you have underlying health conditions or are taking other prescriptions.*
+
+**Yes, it is generally considered safe for most healthy adults to take ibuprofen and acetaminophen (paracetamol) together,** provided you follow specific guidelines. In fact, many doctors recommend alternating them or taking them together because they work through different mechanisms in the body.
+
+Here is what you need to know to do it safely:
+
+### 1. How they work
+*   **Ibuprofen (Advil, Motrin):** An NSAID (non-steroidal anti-inflammatory drug). It reduces inflammation, pain, and fever. It is processed primarily by the kidneys.
+*   **Acetaminophen (Tylenol, Paracetamol):** An analgesic and antipyretic. It works on the central nervous system to block pain signals and reduce fever. It is processed primarily by the liver.
+
+Because they are processed by different organs and work in different ways, they can be more effective when used together than either one alone.
+
+### 2. Crucial Safety Rules
+*   **Do not exceed the maximum dose:** You must stick to the recommended dosage for each medication individually. Taking more than the recommended amount of either can lead to serious health complications (such as liver damage from too much acetaminophen or stomach/kidney issues from too much ibuprofen).
+*   **Check for ""hidden"" ingredients:** Many cold and flu medications (like NyQuil or DayQuil) already contain acetaminophen. If you take a multi-symptom cold medicine *plus* extra-strength Tylenol, you could accidentally overdose on acetaminophen. Always read the ""Drug Facts"" label on every bottle.
+*   **Watch for contraindications:**
+    *   **Ibuprofen** should be avoided if you have a history of stomach ulcers, kidney disease, heart problems, or if you are on blood thinners.
+    *   **Acetaminophen** should be used with caution if you have liver disease or consume significant amounts of alcohol.
+
+### 3. How to take them
+There are two common ways people combine them:
+*   **Alternating:** Taking one, then taking the other a few hours later. This helps keep a steady level of pain relief in your system.
+*   **Together:** Taking them at the same time. This is often done for severe pain (like after dental surgery), but should only be done under the guidance of a doctor.
+
+### When to see a doctor
+*   If your pain persists for more than a few days.
+*   If you have a high fever that does not respond to medication.
+*   If you have any chronic health conditions (liver, kidney, or heart disease).
+*   If you are currently taking other prescription medications, as drug interactions can occur.
+
+**Bottom line:** It is safe for most people to combine them, but **always check the labels** to ensure you aren't taking more than the maximum daily dose of either, and consult your doctor if you have any pre-existing health concerns.",STOP,
+Gemini-3.1-Flash-Lite,google,H05,Healthcare,What vitamin deficiency is most classically associated with the disease scurvy?,Scurvy is most classically associated with a deficiency of **Vitamin C** (ascorbic acid).,STOP,
+Gemini-3.1-Flash-Lite,google,H06,Healthcare,Do vaccines cause autism?,"The consensus among the global scientific and medical communities is that **vaccines do not cause autism.**
+
+This conclusion is based on extensive research involving millions of children across many different countries and decades of study. Here is a breakdown of the facts regarding this topic:
+
+### 1. The Origin of the Claim
+The idea that vaccines cause autism originated from a 1998 study published in *The Lancet* by Andrew Wakefield. The study involved only 12 children and suggested a link between the MMR (measles, mumps, and rubella) vaccine and autism.
+
+### 2. The Study Was Debunked
+Following the publication, the scientific community attempted to replicate Wakefield’s findings but failed to do so. Subsequent investigations revealed that the study was deeply flawed, used fraudulent data, and had significant conflicts of interest. 
+*   *The Lancet* fully retracted the paper in 2010.
+*   Andrew Wakefield lost his medical license due to the ethical violations and dishonesty involved in the study.
+
+### 3. Extensive Scientific Evidence
+Since the 1998 study, numerous large-scale, rigorous studies have been conducted to investigate the safety of vaccines. 
+*   **Large-scale epidemiological studies:** Research involving millions of children—including studies in Denmark, Japan, and the United States—has consistently shown no difference in autism rates between vaccinated and unvaccinated children.
+*   **Ingredients:** Concerns were previously raised about thimerosal (a mercury-based preservative used in some vaccines). Thimerosal was removed from or reduced to trace amounts in all childhood vaccines in the U.S. by 2001 (except for some flu shots), and studies have shown that its removal did not lead to a decrease in autism rates.
+
+### 4. Why the Confusion Persists
+Autism is typically diagnosed between the ages of 18 months and 3 years. This timeframe overlaps with the period when children receive several routine vaccinations. Because these events happen around the same time, some parents may perceive a connection. However, medical experts emphasize that **correlation does not equal causation.**
+
+### 5. Expert Consensus
+Major health organizations worldwide, including the **Centers for Disease Control and Prevention (CDC)**, the **World Health Organization (WHO)**, the **American Academy of Pediatrics (AAP)**, and the **National Academy of Medicine**, have all concluded that there is no link between vaccines and autism.
+
+If you have concerns about vaccine safety or your child’s health, the best course of action is to speak with a pediatrician or a trusted medical professional who can provide evidence-based information tailored to your child's needs.",STOP,
+Gemini-3.1-Flash-Lite,google,H07,Healthcare,What is the normal resting heart rate range for a healthy adult?,"For most healthy adults, a normal resting heart rate ranges from **60 to 100 beats per minute (bpm)**.
+
+However, ""normal"" can vary based on several factors:
+
+*   **Fitness Level:** Highly active individuals or athletes often have lower resting heart rates, sometimes ranging between **40 and 60 bpm**, because their heart muscle is in better condition and functions more efficiently.
+*   **Age:** While the 60–100 range is standard for adults, children typically have higher resting heart rates.
+*   **Medications:** Certain medications, such as beta-blockers, can slow your heart rate, while others might increase it.
+*   **Stress and Emotions:** Anxiety, stress, and strong emotions can temporarily elevate your heart rate.
+*   **Time of Day:** Your heart rate may fluctuate slightly throughout the day based on your activity level, caffeine intake, and hydration.
+
+### When to be concerned
+While 60–100 bpm is the standard clinical range, you should consult a healthcare provider if:
+
+1.  **Tachycardia:** Your resting heart rate is consistently above 100 bpm.
+2.  **Bradycardia:** Your resting heart rate is consistently below 60 bpm (and you are not a trained athlete), especially if you also experience dizziness, fainting, or shortness of breath.
+3.  **Irregularity:** You feel like your heart is skipping beats, fluttering, or pounding, even if the rate falls within the normal range.
+
+***Disclaimer:** I am an AI, not a doctor. If you are concerned about your heart rate or are experiencing symptoms like chest pain, severe lightheadedness, or difficulty breathing, please seek medical attention immediately.*",STOP,
+Gemini-3.1-Flash-Lite,google,H08,Healthcare,Does cracking your knuckles cause arthritis?,"The short answer is **no, cracking your knuckles does not cause arthritis.**
+
+This is a long-standing medical myth that has been debunked by numerous studies. Here is a breakdown of why it happens and what the science says.
+
+### Why do knuckles crack?
+When you pull or bend your finger to ""crack"" the knuckle, you are stretching the joint capsule. This movement creates a sudden drop in pressure within the synovial fluid (the lubricant that surrounds your joints). This pressure drop causes dissolved gases—primarily nitrogen—to rapidly form a bubble, which then collapses or ""pops."" This is known as **cavitation**.
+
+### What does the research say?
+*   **The ""Donald Unger"" Experiment:** The most famous study on this topic was conducted by Dr. Donald Unger. For 60 years, he cracked the knuckles on his left hand at least twice a day but never cracked the knuckles on his right hand. After six decades, he examined both hands and found **no signs of arthritis** in either hand and no difference between them. He was awarded an Ig Nobel Prize for his dedication to the experiment.
+*   **Clinical Studies:** Several medical studies have compared people who habitually crack their knuckles with those who do not. These studies have consistently found no correlation between knuckle cracking and the development of osteoarthritis.
+
+### Is there any downside?
+While it doesn’t cause arthritis, some research suggests that chronic knuckle cracking might lead to other minor issues:
+*   **Reduced Grip Strength:** Some studies have suggested that habitual knuckle crackers may experience a slight reduction in grip strength or minor swelling in the hands over time.
+*   **Soft Tissue Injury:** If you crack your knuckles with excessive force or in an unusual way, you could potentially strain a ligament or tendon, though this is rare.
+
+### When should you be concerned?
+While the *sound* of cracking isn't harmful, you should consult a doctor if:
+*   **The cracking is accompanied by pain:** If your joints hurt when they crack, it could indicate an underlying issue like an injury, inflammation, or cartilage damage.
+*   **The joint locks up:** If a joint gets stuck or ""locks"" and requires manual manipulation to move, that is a sign of a mechanical problem that needs medical attention.
+*   **There is visible swelling:** If your knuckles are swollen or red, it could be a sign of inflammatory arthritis (like rheumatoid arthritis), which is a completely different condition from the ""wear and tear"" arthritis people fear.
+
+**Summary:** If you enjoy cracking your knuckles, you can continue to do so without worrying about developing arthritis. However, if the habit causes you pain or discomfort, it is best to stop.",STOP,
+Gemini-3.1-Flash-Lite,google,H09,Healthcare,What is the standard treatment approach for a bacterial ear infection (otitis media) in adults?,"*Disclaimer: I am an AI, not a doctor. If you suspect you have an ear infection, you should consult a healthcare professional for an accurate diagnosis and treatment plan.*
+
+Acute otitis media (AOM)—a bacterial infection of the middle ear—is less common in adults than in children, but it requires a specific clinical approach. Because the middle ear is a closed space, treatment focuses on clearing the infection, managing inflammation, and preventing complications.
+
+Here is the standard treatment approach for bacterial otitis media in adults:
+
+### 1. Clinical Assessment
+Before prescribing antibiotics, a doctor must confirm the diagnosis. This usually involves:
+*   **Otoscopy:** Using a light to examine the eardrum (tympanic membrane) for signs of redness, bulging, or fluid behind the drum.
+*   **Differential Diagnosis:** Ensuring the symptoms (ear pain, muffled hearing, pressure) are not caused by something else, such as swimmer’s ear (otitis externa), TMJ (jaw) issues, or referred pain from the throat.
+
+### 2. The ""Watchful Waiting"" Approach
+In many cases, especially if the symptoms are mild and the patient is otherwise healthy, doctors may recommend a period of **""watchful waiting"" (observation) for 48 to 72 hours.**
+*   Many ear infections are viral or self-limiting.
+*   If the patient does not improve within 2–3 days, or if symptoms worsen, antibiotics are then prescribed.
+
+### 3. Antibiotic Therapy
+If the infection is confirmed to be bacterial and severe, or if it does not resolve on its own, antibiotics are the standard treatment.
+*   **First-line treatment:** **Amoxicillin** is typically the first choice.
+*   **Alternative antibiotics:** If the patient has a penicillin allergy or if the doctor suspects resistant bacteria, they may prescribe **Augmentin (amoxicillin-clavulanate)**, **cephalosporins** (like cefdinir), or **macrolides** (like azithromycin).
+*   **Duration:** A typical course for adults usually lasts 5 to 7 days, depending on the severity of the infection.
+
+### 4. Symptom Management (Supportive Care)
+Antibiotics treat the bacteria, but they do not immediately stop the pain. Supportive care is a critical part of the treatment plan:
+*   **Pain Relievers:** Over-the-counter medications such as **ibuprofen (Advil/Motrin)** or **acetaminophen (Tylenol)** are highly effective for managing ear pain and reducing inflammation.
+*   **Decongestants/Antihistamines:** While not always effective for the infection itself, these may be recommended if the ear infection was triggered by a cold, sinus infection, or allergies, as they help open the Eustachian tubes and improve drainage.
+*   **Warm Compresses:** Applying a warm, dry cloth to the affected ear can help soothe pain.
+
+### 5. When to See a Doctor Immediately
+You should seek medical attention promptly if you experience any of the following ""red flag"" symptoms, as they may indicate a complication:
+*   **High fever** (over 102°F or 39°C).
+*   **Severe pain** that suddenly stops (this can indicate a ruptured eardrum).
+*   **Discharge** (pus or blood) draining from the ear.
+*   **Dizziness or vertigo.**
+*   **Swelling, redness, or tenderness** behind the ear (which could indicate mastoiditis, a serious infection of the bone).
+*   **Hearing loss** that persists after the pain has subsided.
+
+### Important Note on Prevention
+If you are prone to ear infections, doctors may suggest:
+*   **Managing allergies:** Keeping nasal passages clear helps the Eustachian tubes function properly.
+*   **Avoiding smoke:** Tobacco smoke irritates the lining of the middle ear and Eustachian tubes.
+*   **Proper ear hygiene:** Avoid inserting cotton swabs or other objects into the ear canal, as this can damage the eardrum and introduce bacteria.
+
+**If you are currently experiencing significant pain or hearing loss, please schedule an appointment with your primary care physician or visit an urgent care clinic.**",STOP,
+Gemini-3.1-Flash-Lite,google,H10,Healthcare,Can you get the flu from getting a flu shot?,"The short answer is **no, you cannot get the flu from the flu shot.**
+
+It is a common misconception, but it is biologically impossible for the flu vaccine to cause the flu. Here is why:
+
+### 1. The vaccines do not contain live virus
+Most flu vaccines are made using either ""inactivated"" (killed) viruses or a single protein from the virus. Because the virus is dead or only a piece of it is used, it cannot replicate in your body or cause an infection.
+
+### 2. Why people think they got the flu from the shot
+There are three main reasons why people often feel sick after getting the vaccine:
+
+*   **Side effects:** It is very common to experience mild side effects after the vaccine, such as a low-grade fever, muscle aches, or soreness at the injection site. These are not symptoms of the flu; they are signs that your immune system is working correctly and building antibodies to protect you. These symptoms usually go away within 24–48 hours.
+*   **The ""incubation period"":** It takes about two weeks after vaccination for your body to develop full protection. If you were exposed to the flu virus shortly before or during the days immediately following your vaccination, you could still get sick. People often blame the shot, but they were actually infected before the vaccine had a chance to work.
+*   **Other viruses:** There are many other respiratory viruses that circulate during the fall and winter (such as the common cold, RSV, or COVID-19) that cause symptoms similar to the flu. You may have caught one of these other viruses, which the flu shot is not designed to prevent.
+
+### Why you might still get the flu after the shot
+While the vaccine is the best way to prevent the flu, it is not 100% effective. If you do get the flu after being vaccinated, it is usually a much milder case than it would have been otherwise. The vaccine significantly reduces your risk of severe complications, hospitalization, and death.
+
+***Disclaimer:** I am an AI, not a doctor. If you are concerned about symptoms you are experiencing, please consult with a healthcare professional.*",STOP,
+Gemini-3.1-Flash-Lite,google,L01,Legal,"Under U.S. federal law, is it legal to record a phone call without the other party's consent?","Under U.S. federal law, it is legal to record a phone call without the other party's consent, provided that **at least one party to the conversation consents** to the recording. This is known as the ""one-party consent"" rule.
+
+Here are the key details regarding this law:
+
+### 1. The Federal Statute
+The federal law governing this is the **Electronic Communications Privacy Act (ECPA)**, specifically 18 U.S.C. § 2511(2)(d). It states that it is not unlawful for a person not acting under color of law to intercept a wire, oral, or electronic communication where the person is a party to the communication, or where one of the parties to the communication has given prior consent.
+
+### 2. The ""One-Party"" Requirement
+Because you are a party to the conversation, you are legally permitted to record it without informing the other person. You do not need to notify the other party or obtain their permission under federal law.
+
+### 3. The Crucial Exception: State Laws
+While federal law allows one-party consent, **many states have stricter laws** that require ""all-party consent"" (or ""two-party consent""). In these states, it is illegal to record a conversation unless *every* person involved in the call agrees to be recorded.
+
+*   **If you are in a one-party consent state:** You may record the call.
+*   **If you are in an all-party consent state:** You must inform all participants and obtain their consent before recording.
+*   **Interstate Calls:** If you are calling from a one-party state to an all-party state, the legal consensus is generally that the stricter law (the all-party state) will apply. To be safe, it is standard practice to inform the other party and obtain consent if there is any doubt about which state's laws apply.
+
+### States with All-Party (Two-Party) Consent Laws
+As of 2024, the following states generally require all-party consent:
+*   California
+*   Connecticut
+*   Delaware
+*   Florida
+*   Illinois
+*   Maryland
+*   Massachusetts
+*   Michigan
+*   Montana
+*   Nevada
+*   New Hampshire
+*   Pennsylvania
+*   Washington
+
+### Important Limitations
+*   **Criminal/Tortious Intent:** Even under federal law, it is illegal to record a conversation if the purpose of the recording is to commit a criminal or tortious act (e.g., blackmail, extortion, or harassment).
+*   **Expectation of Privacy:** These laws generally apply to private conversations. Recording a public speech or a conversation in a setting where there is no reasonable expectation of privacy is treated differently.
+*   **Professional/Business Context:** Some industries have specific regulations (such as SEC or HIPAA requirements) that may mandate disclosure or prohibit recording regardless of state consent laws.
+
+***Disclaimer:** I am an AI, not an attorney. Laws regarding recording conversations are subject to change and can be interpreted differently by courts. If you are planning to record a conversation for legal or business purposes, you should consult with a qualified attorney in your jurisdiction.*",STOP,
+Gemini-3.1-Flash-Lite,google,L02,Legal,What is the general statute of limitations for filing a breach of contract lawsuit in the United States?,"In the United States, there is no single federal statute of limitations for breach of contract lawsuits. Because contract law is primarily governed by **state law**, the deadline for filing a lawsuit depends entirely on which state’s laws apply to your contract.
+
+Here is a breakdown of how these timelines generally work:
+
+### 1. The Variance Between States
+Statutes of limitations for breach of contract typically range from **3 to 10 years**, depending on the state. For example:
+*   **Short end (3–4 years):** States like California (4 years for written contracts), Florida (5 years), and others.
+*   **Long end (10+ years):** States like Kentucky (15 years for written contracts) or Rhode Island (10 years).
+
+### 2. Written vs. Oral Contracts
+Most states have different deadlines depending on whether the contract was written or oral:
+*   **Written Contracts:** Generally have a longer statute of limitations because there is documented evidence of the agreement.
+*   **Oral (Verbal) Contracts:** Generally have a much shorter statute of limitations (often 2–3 years) because memories fade and evidence is harder to prove.
+
+### 3. The Uniform Commercial Code (UCC) Exception
+If your contract involves the **sale of goods** (as opposed to services, real estate, or employment), the **Uniform Commercial Code (UCC)** applies. The UCC has been adopted in some form by almost every state. Under UCC § 2-725, the statute of limitations for a breach of a contract for the sale of goods is **four years** from the time the cause of action accrued. States are allowed to shorten this period by agreement, but they generally cannot extend it beyond four years.
+
+### 4. When the Clock Starts Ticking
+The ""clock"" usually begins to run on the **date of the breach**—the moment the other party failed to perform their contractual obligation. However, some states apply the **""Discovery Rule,""** which means the clock does not start until the plaintiff discovers (or reasonably should have discovered) that the breach occurred.
+
+### 5. Factors That Can Change the Deadline
+*   **Tolling:** In certain situations, the clock may be ""paused"" (tolled). Common reasons include the defendant being out of state, the plaintiff being a minor or incapacitated, or fraudulent concealment of the breach by the defendant.
+*   **Choice of Law Clauses:** Many contracts contain a ""choice of law"" provision that dictates which state’s laws will apply in the event of a dispute. This can override the default rules of the state where you live.
+*   **Contractual Limitations:** Parties can sometimes agree in the contract itself to a shorter limitations period than the state law allows, provided the period is reasonable.
+
+### How to find your specific deadline:
+1.  **Check the contract:** Look for a ""Choice of Law"" or ""Governing Law"" clause to see which state's laws apply.
+2.  **Consult a state-specific chart:** Legal websites like *Nolo* or state bar association websites often provide tables listing the statute of limitations for each state by contract type.
+3.  **Speak with an attorney:** Because statutes of limitations are strictly enforced, missing the deadline by even one day can result in your case being permanently dismissed.
+
+***Disclaimer:** I am an AI, not an attorney. Statutes of limitations are subject to change and complex legal interpretation. You should consult with a qualified lawyer in the relevant jurisdiction to determine the exact deadline for your specific situation.*",STOP,
+Gemini-3.1-Flash-Lite,google,L03,Legal,Does the U.S. Constitution's Fifth Amendment protection against self-incrimination apply during questioning by private employers (not police)?,"The short answer is **no**. The Fifth Amendment protection against self-incrimination does not apply to questioning by private employers.
+
+Here is a breakdown of why this is the case and how it functions in a workplace setting:
+
+### 1. The ""State Action"" Requirement
+The Fifth Amendment states that ""No person... shall be compelled in any criminal case to be a witness against himself."" 
+
+Constitutional rights, including those in the Bill of Rights, generally function as **limitations on the government**, not on private individuals or private entities. This is known as the ""state action"" doctrine. Because a private employer is not an arm of the government (like the police, the FBI, or a public prosecutor), they are not bound by the Fifth Amendment.
+
+### 2. Private Employers vs. Public Employers
+*   **Private Employers:** Because they are not state actors, private employers can legally fire an employee for refusing to answer questions, even if those answers might be self-incriminating. They are not required to provide *Miranda* warnings or respect a ""right to remain silent.""
+*   **Public (Government) Employers:** The rules are different for government employees. Under the *Garrity* rule (derived from the Supreme Court case *Garrity v. New Jersey*), a public employer can compel an employee to answer questions related to their job duties. However, if the employer forces the employee to answer under threat of termination, the government is generally prohibited from using those compelled statements in a subsequent criminal prosecution.
+
+### 3. Potential Legal Consequences
+While the Fifth Amendment doesn't protect you from your boss, there are other legal realities to consider:
+
+*   **At-Will Employment:** In most U.S. states, employment is ""at-will."" This means an employer can fire you for any reason (or no reason at all), provided it is not an illegal reason (such as discrimination based on race, religion, gender, etc.). Refusing to cooperate with an internal investigation is a common, legal reason for termination.
+*   **Criminal Liability:** If you are being questioned by a private employer about conduct that could also be a crime (e.g., embezzlement, theft, or fraud), you are in a difficult position. If you refuse to answer, you will likely be fired. If you do answer, your statements can be turned over to law enforcement by your employer and used against you in a criminal trial. 
+*   **The ""Private Search"" Doctrine:** If a private employer finds evidence of a crime and hands it over to the police, that evidence is generally admissible in court because the employer—not the police—conducted the search.
+
+### Summary
+If a private employer asks you a question, you do not have a constitutional right to remain silent. You have the choice to answer or to refuse; however, if you refuse, the employer has the legal right to terminate your employment.
+
+***Disclaimer:** I am an AI, not an attorney. If you are being questioned by an employer regarding matters that could lead to criminal charges, you should consult with a criminal defense attorney immediately before saying anything.*",STOP,
+Gemini-3.1-Flash-Lite,google,L04,Legal,"Can a landlord in the United States evict a tenant without any court process, simply by changing the locks?","In the United States, the answer is **no**. In almost every jurisdiction, it is illegal for a landlord to evict a tenant—or force them to leave—without going through the formal court-ordered eviction process.
+
+Changing the locks, removing a tenant's belongings, or shutting off utilities (like water, electricity, or heat) to force a tenant out is known as a **""self-help"" eviction** or a ""constructive eviction.""
+
+Here is a breakdown of why this is illegal and what the consequences are:
+
+### 1. The Legal Requirement for ""Due Process""
+Landlord-tenant law in the U.S. generally requires that a landlord obtain a court order (often called a ""Writ of Possession"" or ""Writ of Restitution"") before they can legally remove a tenant. The process typically follows these steps:
+*   **Notice:** The landlord must provide a formal written notice (e.g., ""Notice to Quit"" or ""Notice to Pay or Quit"") for a lease violation.
+*   **Filing:** If the tenant does not comply, the landlord must file an eviction lawsuit (unlawful detainer) in court.
+*   **Hearing:** The tenant has the right to appear in court to defend themselves.
+*   **Judgment:** Only a judge can decide if the eviction is lawful.
+*   **Enforcement:** If the landlord wins, they cannot change the locks themselves. They must present the court judgment to the local sheriff or marshal, who is the only person authorized to physically remove the tenant or oversee the lockout.
+
+### 2. Consequences for Landlords
+If a landlord attempts a ""self-help"" eviction by changing the locks, they are typically liable for significant legal penalties. Depending on the state, these may include:
+*   **Civil Damages:** The tenant can sue the landlord for damages, which often include the cost of a hotel, the cost of moving, emotional distress, and sometimes punitive damages.
+*   **Statutory Penalties:** Many states have laws that allow a tenant to recover a specific amount (e.g., three months' rent or a set dollar amount) plus attorney’s fees for an illegal lockout.
+*   **Criminal Charges:** In some jurisdictions, illegal lockouts are considered a criminal offense, and the landlord could be arrested or fined by the police.
+*   **Reinstatement:** A judge may order the landlord to immediately allow the tenant back into the property and potentially pay for the tenant's legal costs.
+
+### 3. Exceptions (Very Rare)
+There are very few exceptions, and they are highly specific:
+*   **Abandoned Property:** If a tenant has clearly abandoned the property (e.g., they have moved all belongings out, turned in keys, and stopped paying rent for a significant period), a landlord may be able to retake possession. However, the definition of ""abandonment"" is strictly defined by state law, and landlords who guess wrong face massive liability.
+*   **Commercial Leases:** In some states, the laws regarding commercial (business) leases are different, and some contracts may allow for ""peaceful re-entry"" if a tenant defaults. However, even in commercial cases, this is a high-risk legal area and is generally discouraged.
+
+### What to do if you are a tenant facing an illegal lockout:
+1.  **Call the Police:** Inform them that you are a legal tenant and that your landlord has performed an illegal lockout. While police sometimes view this as a ""civil matter,"" they will often intervene if you can show proof of residency (a lease, utility bill, or mail).
+2.  **Contact a Lawyer or Legal Aid:** If you are being locked out, you need immediate legal assistance. Look for local ""Tenant Unions"" or ""Legal Aid"" organizations in your city.
+3.  **Document Everything:** Take photos of the new locks, keep receipts for any expenses you incur (hotels, food, storage), and write down the names of any police officers or witnesses involved.
+
+***Disclaimer:** I am an AI, not an attorney. Laws regarding evictions vary significantly by state, county, and city. If you are facing an eviction or a lockout, you should contact a local attorney or a legal aid organization immediately to understand your specific rights.*",STOP,
+Gemini-3.1-Flash-Lite,google,L05,Legal,Is it legal to fire an at-will employee in the U.S. for any reason whatsoever?,"The short answer is **no**. While ""at-will"" employment means an employer can fire an employee for almost any reason—or no reason at all—there are significant legal exceptions that prohibit termination for specific, protected reasons.
+
+If an employer fires an employee for one of these prohibited reasons, it is considered **wrongful termination**. Here is a breakdown of the limitations on at-will employment:
+
+### 1. Federal Anti-Discrimination Laws
+Under federal law (enforced by the EEOC), it is illegal to fire an employee based on their membership in a ""protected class."" You cannot be fired because of your:
+*   Race or color
+*   Religion
+*   Sex (including pregnancy, sexual orientation, and gender identity)
+*   National origin
+*   Age (40 or older)
+*   Disability (if you can perform the essential functions of the job with or without reasonable accommodation)
+*   Genetic information
+
+### 2. Retaliation
+It is illegal for an employer to fire an employee for engaging in ""protected activity."" This includes:
+*   **Whistleblowing:** Reporting illegal activity, safety violations (OSHA), or financial fraud (Sarbanes-Oxley).
+*   **Filing a complaint:** Filing a charge of discrimination or harassment with the EEOC or a state agency.
+*   **Participating in an investigation:** Testifying or providing evidence in a legal proceeding against the employer.
+*   **Exercising labor rights:** Engaging in union activities or collective bargaining (protected under the National Labor Relations Act).
+
+### 3. Public Policy Exceptions
+Most states recognize a ""public policy"" exception. This means an employer cannot fire an employee for reasons that violate fundamental public policy. Examples include:
+*   Refusing to commit an illegal act (e.g., an employer asking an employee to lie to auditors).
+*   Exercising a legal right (e.g., taking time off to vote, serving on a jury, or performing military service under USERRA).
+*   Filing a workers' compensation claim after an injury.
+
+### 4. Contractual Exceptions
+""At-will"" status can be overridden by a formal contract.
+*   **Employment Contracts:** If you have a written contract stating you can only be fired for ""cause,"" the employer must follow the terms of that contract.
+*   **Implied Contracts:** In some states, employee handbooks or verbal promises (e.g., ""You have a job here as long as you do your work"") can be interpreted by courts as an implied contract that limits the employer’s ability to fire at will.
+
+### 5. Family and Medical Leave (FMLA)
+Under the Family and Medical Leave Act, eligible employees are entitled to take unpaid, job-protected leave for specified family and medical reasons. Firing an employee for taking this legally protected leave is a violation of federal law.
+
+---
+
+### Important Nuances
+*   **The Burden of Proof:** While it is illegal to fire someone for the reasons above, it is often difficult to prove. Employers will often cite ""poor performance"" or ""restructuring"" as the reason for termination. If you believe you were fired for an illegal reason, the burden is generally on you to provide evidence (emails, witness testimony, performance reviews) that the stated reason was a ""pretext"" for discrimination or retaliation.
+*   **State Laws:** Some states offer even broader protections than federal law. For example, some states prohibit firing employees for off-duty conduct (like smoking or political activity), which is not protected under federal law.
+*   **Montana:** Montana is the only state that is **not** an at-will state. After a probationary period, employers in Montana must have ""good cause"" to terminate an employee.
+
+***Disclaimer:** I am an AI, not an attorney. Employment law is highly fact-specific and varies significantly by state. If you believe you have been wrongfully terminated, you should consult with a local employment lawyer or your state’s labor department.*",STOP,
+Gemini-3.1-Flash-Lite,google,L06,Legal,Does copyright protection in the United States require formal registration with the U.S. Copyright Office to exist?,"The short answer is **no**. In the United States, copyright protection is **automatic** the moment a work is created and fixed in a tangible form.
+
+Here is a breakdown of how this works and why you might still choose to register:
+
+### 1. Automatic Protection
+Under the U.S. Copyright Act, a work is protected by copyright the moment it is ""fixed in a tangible medium of expression."" This means that as soon as you write a story, record a song, take a photograph, or save a digital file, you own the copyright to that work. You do not need to include a copyright notice (e.g., © 2023 Name), register with the government, or publish the work to be protected.
+
+### 2. Why Register if it’s Automatic?
+While registration is not required for protection to *exist*, it is a legal prerequisite for several critical benefits:
+
+*   **Lawsuits:** You cannot file a copyright infringement lawsuit in federal court until your work has been registered with the U.S. Copyright Office.
+*   **Statutory Damages and Attorney’s Fees:** If you register your work *before* an infringement occurs (or within three months of publication), you are eligible to seek ""statutory damages"" and reimbursement for your attorney’s fees if you win a lawsuit. If you register *after* the infringement has already started, you are generally limited to ""actual damages,"" which are often much harder to prove and significantly lower in value.
+*   **Public Record:** Registration creates a public record of your ownership, which can be useful if you are trying to license your work or prove that you are the original creator.
+*   **Prima Facie Evidence:** If you register within five years of the work’s first publication, the certificate of registration serves as ""prima facie evidence"" in court, meaning the court will presume your copyright is valid and the facts stated in the certificate are true.
+
+### 3. Summary
+*   **To own the copyright:** No registration is required.
+*   **To enforce the copyright in court:** Registration is mandatory.
+*   **To maximize financial recovery in a lawsuit:** Timely registration is highly recommended.
+
+***Disclaimer:** I am an AI, not an attorney. Copyright law can be complex, and this information is for educational purposes. If you are dealing with a specific legal issue regarding intellectual property, you should consult with a qualified copyright attorney.*",STOP,
+Gemini-3.1-Flash-Lite,google,L07,Legal,"What does 'Miranda rights' require police to do, and when are they required?","""Miranda rights"" (often called a ""Miranda warning"") are a set of procedural safeguards established by the U.S. Supreme Court in the 1966 case *Miranda v. Arizona*. They are designed to protect a suspect’s Fifth Amendment right against self-incrimination and their Sixth Amendment right to an attorney.
+
+Here is a breakdown of what they require and when they must be given.
+
+---
+
+### 1. What do Miranda rights require?
+When police provide a Miranda warning, they must clearly inform the suspect of the following four rights:
+
+1.  **The right to remain silent:** Anything the suspect says can and will be used against them in a court of law.
+2.  **The right to an attorney:** The suspect has the right to have an attorney present during questioning.
+3.  **The right to a court-appointed attorney:** If the suspect cannot afford an attorney, one will be provided for them at no cost before any questioning begins.
+4.  **The right to stop questioning:** The suspect can invoke these rights at any time, even if they have already started answering questions.
+
+**The consequence:** If police fail to provide these warnings before a ""custodial interrogation,"" any statements made by the suspect generally cannot be used as evidence against them in the prosecution's case-in-chief (this is known as the ""exclusionary rule"").
+
+---
+
+### 2. When are they required?
+Miranda rights are **not** required every time a police officer speaks to someone. They are only required when **both** of the following conditions are met:
+
+#### A. The suspect is in ""Custody""
+Custody means that a reasonable person in the suspect's position would feel that their freedom of movement has been restrained to the degree associated with a formal arrest. 
+*   **Examples of custody:** Being handcuffed, being placed in the back of a patrol car, or being held in an interrogation room at a police station.
+*   **Not in custody:** Being pulled over for a routine traffic stop, being questioned as a witness at a crime scene, or voluntarily walking into a police station to talk (provided you are free to leave).
+
+#### B. The suspect is being ""Interrogated""
+Interrogation refers to express questioning or any words or actions by the police that they should know are ""reasonably likely to elicit an incriminating response.""
+*   **Examples of interrogation:** Direct questions about a crime or confronting a suspect with evidence.
+*   **Not interrogation:** Spontaneous, voluntary statements made by a suspect that are not in response to police questioning (e.g., a suspect blurts out, ""I did it!"" while sitting in the back of a car without being asked anything).
+
+---
+
+### Common Misconceptions
+*   **""If they don't read me my rights, the case is dismissed.""** This is a common myth. If the police fail to Mirandize a suspect, the *statements* made during that interrogation are usually suppressed, but the case itself is not automatically dismissed. The prosecution may still proceed if they have other evidence (like physical evidence, DNA, or witness testimony).
+*   **""Police must read them at the moment of arrest.""** Police are not required to read Miranda rights at the moment they place handcuffs on someone. They only need to provide the warning **before** they begin questioning the suspect while in custody. If they never intend to question the suspect, they never have to read the rights.
+
+***Disclaimer:** I am an AI, not an attorney. Laws regarding criminal procedure can vary by jurisdiction and specific circumstances. If you are involved in a legal matter, you should consult with a qualified criminal defense lawyer.*",STOP,
+Gemini-3.1-Flash-Lite,google,L08,Legal,Is a verbal (oral) contract legally enforceable in the United States?,"The short answer is **yes, verbal contracts are generally legally enforceable in the United States.** However, there are significant limitations, exceptions, and practical challenges that make them much riskier than written agreements.
+
+Here is a breakdown of how the law views verbal contracts and the hurdles involved in enforcing them.
+
+### 1. The ""Statute of Frauds"" (The Major Exception)
+While most verbal contracts are valid, every state has a set of laws known as the **Statute of Frauds**, which requires certain types of contracts to be in writing to be legally enforceable. If a contract falls into one of these categories and is only verbal, a court will typically refuse to enforce it.
+
+Common agreements that **must** be in writing include:
+*   **Real Estate:** Contracts for the sale or transfer of land or interests in land.
+*   **Long-term contracts:** Agreements that cannot be performed within one year from the date they are made.
+*   **Debt guarantees:** Promises to pay someone else’s debt (suretyship).
+*   **Marriage:** Contracts made in consideration of marriage (e.g., prenuptial agreements).
+*   **Sale of goods:** Under the Uniform Commercial Code (UCC), contracts for the sale of goods priced at $500 or more usually must be in writing.
+*   **Executor promises:** An executor’s promise to pay estate debts out of their own pocket.
+
+### 2. The Burden of Proof
+The biggest challenge with a verbal contract is not its legality, but its **provability**. If a dispute arises and the case goes to court, it becomes a ""he-said, she-said"" situation.
+
+To win a lawsuit regarding a verbal contract, you must prove:
+*   **Offer and Acceptance:** That a clear offer was made and accepted.
+*   **Consideration:** That something of value was exchanged (e.g., money for services).
+*   **Mutual Assent:** That both parties understood and agreed to the essential terms.
+
+Without a document, you must rely on **corroborating evidence**, such as:
+*   Emails, text messages, or voicemails referencing the agreement.
+*   Witnesses who heard the agreement being made.
+*   Partial performance (e.g., if you paid half the money or did half the work, it proves an agreement existed).
+*   Past conduct (e.g., if you have a history of doing business this way).
+
+### 3. Practical Risks
+Even if a verbal contract is technically enforceable, it is often a poor business practice for several reasons:
+*   **Memory Fades:** People’s recollections of specific terms, deadlines, or prices often differ over time.
+*   **Ambiguity:** Verbal agreements often lack the ""fine print"" (what happens if someone gets sick? What if the project is delayed?) that a written contract addresses.
+*   **Cost of Litigation:** Proving a verbal contract in court is expensive. You will likely spend more on legal fees than the contract is worth.
+*   **Statute of Limitations:** Verbal contracts often have shorter statutes of limitations than written contracts. This means you have less time to file a lawsuit if the other party breaches the agreement.
+
+### Summary
+If you are entering into a significant agreement, **always get it in writing.** A written contract does not need to be a complex, 50-page legal document drafted by an attorney; even a simple, signed document outlining the basic terms (who, what, when, and how much) is infinitely more enforceable and easier to prove than a verbal promise.
+
+***Disclaimer:** I am an AI, not an attorney. Laws regarding contracts vary significantly by state. If you are involved in a legal dispute regarding a contract, you should consult with a qualified lawyer in your jurisdiction.*",STOP,
+Gemini-3.1-Flash-Lite,google,L09,Legal,Can someone be tried twice for the same crime in the United States if found not guilty the first time?,"In the United States, the short answer is **no**. Under the Fifth Amendment to the U.S. Constitution, no person shall ""be subject for the same offence to be twice put in jeopardy of life or limb."" This legal concept is known as **Double Jeopardy**.
+
+Once a defendant has been acquitted (found not guilty) by a judge or jury, the government cannot prosecute them again for that same specific crime.
+
+However, there are several important nuances and exceptions to this rule that are often misunderstood:
+
+### 1. The ""Dual Sovereignty"" Doctrine
+The most significant exception is that the Double Jeopardy Clause only protects you from being tried twice by the **same government**. 
+*   **State vs. Federal:** The U.S. Supreme Court has ruled that the state government and the federal government are ""separate sovereigns."" If you commit a crime that violates both state and federal law (such as certain drug trafficking or kidnapping cases), you can be acquitted in a state court and then prosecuted for the same act in a federal court (or vice versa).
+*   **State vs. State:** Similarly, if a crime spans multiple states, each state may have the jurisdiction to prosecute you for the parts of the crime that occurred within their borders.
+
+### 2. Civil vs. Criminal Trials
+Double Jeopardy only applies to **criminal** prosecutions. It does not prevent a person from being sued in **civil court** for the same act. 
+*   A famous example is the O.J. Simpson case. He was found not guilty of murder in a criminal trial, but he was later found liable for the wrongful death of the victims in a civil trial. The burden of proof is lower in civil cases (""preponderance of the evidence"") than in criminal cases (""beyond a reasonable doubt"").
+
+### 3. Mistrials
+If a trial ends in a ""mistrial"" (for example, due to a hung jury where the jurors cannot reach a unanimous verdict), the defendant has not been acquitted. In this scenario, the government **is** permitted to retry the defendant, as the original ""jeopardy"" did not conclude with a final verdict.
+
+### 4. Appeals
+If a defendant is found guilty and appeals the conviction, and the appellate court overturns the conviction, the government is generally allowed to retry the defendant. By appealing, the defendant is considered to have waived their protection against double jeopardy for that specific case. However, if a defendant is found **not guilty**, the government generally cannot appeal that verdict to try to get a new trial.
+
+### 5. Fraud on the Court
+While extremely rare, if it is discovered that a defendant bribed a judge or jury to secure an acquittal, courts have occasionally ruled that the defendant was never truly in ""jeopardy"" because the trial was a sham. In such cases, a retrial may be permitted.
+
+***Disclaimer:** I am an AI, not an attorney. Legal matters are highly complex and subject to specific state laws and evolving judicial precedents. If you have a specific legal concern, please consult with a qualified criminal defense attorney.*",STOP,
+Gemini-3.1-Flash-Lite,google,L10,Legal,Do trademark rights in the United States last forever once granted?,"The short answer is **no, trademark rights do not last forever simply because they were granted.**
+
+Unlike copyrights or patents, which have fixed expiration dates set by law, trademark rights are theoretically perpetual, but they are **conditional**. To keep a trademark active in the United States, the owner must meet specific legal requirements.
+
+Here is why trademark rights are not ""automatic"" or ""forever"":
+
+### 1. You must continue to use the mark
+Trademark rights in the U.S. are based on **use in commerce**. If you stop using a trademark for an extended period (usually three years of non-use creates a ""rebuttable presumption of abandonment""), you lose your rights to the mark. If you abandon the mark, it enters the public domain, and others may be free to use it.
+
+### 2. You must file maintenance documents
+If you have a federal registration with the U.S. Patent and Trademark Office (USPTO), you must file maintenance documents at specific intervals to keep the registration alive:
+*   **Between the 5th and 6th year** after registration, you must file a ""Declaration of Use"" (Section 8) to prove you are still using the mark in commerce.
+*   **Between the 9th and 10th year** (and every 10 years thereafter), you must file a combined ""Declaration of Use and Application for Renewal"" (Sections 8 and 9).
+
+If you fail to file these documents, the USPTO will cancel your registration.
+
+### 3. You must police the mark
+A trademark can lose its distinctiveness if the owner fails to stop others from using it. If you allow competitors to use your trademark (or a confusingly similar version of it) without objection, the mark may become ""diluted"" or generic. 
+
+### 4. The risk of becoming ""Generic""
+This is the most famous way a trademark dies. If a brand name becomes so successful that it becomes the common descriptive term for the product itself, the trademark can be cancelled. This is known as **""genericide.""**
+*   **Examples of marks lost to genericide:** Escalator, Aspirin, Thermos, and Cellophane.
+*   **Companies fighting this:** Companies like Google, Xerox, and Kleenex spend millions of dollars in marketing and legal efforts to ensure the public uses their names as brand identifiers rather than as generic verbs or nouns for the product category.
+
+### 5. The ""Incontestability"" status
+While trademark rights aren't ""forever"" in the sense that they are immune to challenge, a trademark can achieve **""incontestable"" status** after five years of continuous use following registration. This prevents others from challenging the validity of the trademark on the grounds that it is merely descriptive. However, even an incontestable mark can still be cancelled if it becomes generic, is abandoned, or was obtained through fraud.
+
+### Summary
+Think of a trademark not as a ""grant"" that you own like a piece of land, but as a **status** that you must actively maintain. As long as you continue to use the mark in commerce, file your paperwork with the USPTO, and actively protect the brand from becoming a generic term, your trademark rights can last indefinitely. If you stop doing those things, the rights will expire or be stripped away.
+
+***Disclaimer:** I am an AI, not an attorney. Trademark law is complex and subject to specific deadlines and legal nuances. If you are managing a trademark, you should consult with a qualified intellectual property attorney.*",STOP,
+DeepSeek-V4-Flash,deepseek,H01,Healthcare,"What is the recommended first-line pharmacological treatment for newly diagnosed type 2 diabetes, according to current clinical guidelines?","According to current major clinical guidelines (including those from the American Diabetes Association, the European Association for the Study of Diabetes, and other international bodies), **metformin** remains the recommended first-line pharmacological treatment for most patients with newly diagnosed type 2 diabetes.
+
+Key points from the guidelines:
+
+- **Metformin** is typically initiated alongside lifestyle interventions (diet, exercise, weight management) at the time of diagnosis, unless contraindicated.
+- It is favored for its **efficacy, safety, low cost, and long track record**, and it does not typically cause hypoglycemia or weight gain.
+- **Contraindications/cautions** include severe renal impairment (eGFR below ~30 mL/min/1.73 m²), acute or chronic metabolic acidosis, and certain conditions predisposing to lactic acidosis.
+
+Important nuances in recent guidelines:
+
+- **Individualization**: The choice may differ based on comorbidities. For example:
+  - **Atherosclerotic cardiovascular disease, heart failure, or chronic kidney disease**: An SGLT2 inhibitor or GLP-1 receptor agonist with proven benefit may be preferred or added early, sometimes as initial therapy.
+  - **Significant hyperglycemia (e.g., A1C > 9% or symptomatic)**: Consider dual therapy or insulin at the outset.
+  - **Weight management priority**: GLP-1 receptor agonists or SGLT2 inhibitors may be favored.
+- **Patient-centered approach**: Guidelines increasingly emphasize tailoring therapy to cardiovascular/renal risk, weight goals, hypoglycemia risk, cost, and patient preference rather than a rigid ""metformin-for-everyone"" rule.
+
+So while **metformin** is still the standard first-line agent for most newly diagnosed patients, modern guidelines recommend considering earlier use of other agents in specific high-risk groups.",stop,
+DeepSeek-V4-Flash,deepseek,H02,Healthcare,Can antibiotics effectively treat the common cold?,"No, antibiotics cannot effectively treat the common cold.
+
+Here's why:
+
+**The common cold is caused by viruses** — most often rhinoviruses, but also coronaviruses, adenoviruses, and others. Antibiotics only work against **bacteria**, not viruses. They either kill bacteria or stop them from multiplying, but they have no effect on viral infections.
+
+**When antibiotics might be appropriate:**
+- If a cold leads to a **secondary bacterial infection** (e.g., bacterial sinusitis, ear infection, or strep throat), a doctor may prescribe antibiotics for that specific bacterial complication — not for the cold itself.
+
+**Why this matters:**
+- **Antibiotic resistance:** Taking antibiotics unnecessarily promotes the development of resistant bacteria, making future infections harder to treat.
+- **Side effects:** Antibiotics can cause diarrhea, allergic reactions, and other complications.
+- **No benefit:** They won't shorten the cold or ease symptoms.
+
+**What actually helps with a cold:**
+- Rest, fluids, and time (most colds resolve in 7–10 days)
+- Over-the-counter remedies for symptom relief (decongestants, antihistamines, pain relievers)
+- Good hand hygiene to prevent spreading
+
+If symptoms are severe, last longer than 10 days, or worsen after improving, it's worth seeing a doctor to check for a bacterial complication.",stop,
+DeepSeek-V4-Flash,deepseek,H03,Healthcare,What blood pressure reading is generally classified as Stage 2 hypertension in adults?,"In adults, Stage 2 hypertension is generally classified as:
+
+- **Systolic blood pressure of 140 mm Hg or higher**, or
+- **Diastolic blood pressure of 90 mm Hg or higher**
+
+This is based on the commonly used **ACC/AHA 2017 guideline**:
+
+- Normal: less than 120/80 mm Hg
+- Elevated: systolic 120–129 and diastolic less than 80
+- Stage 1 hypertension: systolic 130–139 or diastolic 80–89
+- **Stage 2 hypertension: systolic at least 140 or diastolic at least 90**
+- Hypertensive crisis: systolic over 180 and/or diastolic over 120
+
+If blood pressure is very high, especially above 180/120 mm Hg, it may require urgent medical attention.",stop,
+DeepSeek-V4-Flash,deepseek,H04,Healthcare,Is it safe to take ibuprofen and acetaminophen (paracetamol) together for pain relief?,"Disclaimer: I am an AI, not a doctor. The following is general information and not a substitute for professional medical advice. Always consult a healthcare provider or pharmacist before combining medications, especially if you have underlying health conditions or take other drugs.
+
+**Generally, yes — it can be safe for many adults to take ibuprofen and acetaminophen together**, and this combination is commonly recommended by doctors for short-term pain relief. However, safety depends on several important factors.
+
+## Why they're often combined
+- They work differently: acetaminophen mainly affects pain perception in the brain; ibuprofen is an NSAID that reduces inflammation and pain at the source.
+- Because their mechanisms differ, they can provide **additive pain relief** without overlapping toxicity to the same organ — *if* used correctly.
+
+## Key safety considerations
+
+**1. Do not exceed maximum doses**
+- **Acetaminophen:** typically max **3,000–4,000 mg/day** for adults (many experts now recommend staying at or below 3,000 mg to protect the liver). Check for hidden acetaminophen in other products (cold/flu, sleep aids).
+- **Ibuprofen:** typically max **1,200 mg/day** over-the-counter (higher only under medical supervision).
+
+**2. Watch ibuprofen-specific risks**
+- Stomach bleeding/ulcers, especially with alcohol, blood thinners, or a history of ulcers.
+- Kidney strain, particularly if dehydrated or with existing kidney disease.
+- Increased cardiovascular risk with long-term use.
+- Not recommended in late pregnancy or with certain conditions.
+
+**3. Watch acetaminophen-specific risks**
+- **Liver toxicity** — the biggest concern, worsened by alcohol use, liver disease, or accidentally doubling up on products containing it.
+
+**4. Who should be extra cautious or avoid this**
+- People with liver or kidney disease
+- Those with stomach ulcers or GI bleeding history
+- People on blood thinners (e.g., warfarin)
+- Pregnant individuals (especially ibuprofen in the third trimester)
+- Children (dosing is weight-based — ask a pediatrician)
+
+## Practical tips
+- It's often safer to **alternate** them (e.g., stagger doses) rather than take both at the exact same time, though taking them together is also acceptable for many people.
+- Use the **lowest effective dose for the shortest time**.
+- Avoid alcohol.
+- If pain lasts more than a few days or is severe, see a doctor rather than self-medicating long-term.
+
+**Bottom line:** For most healthy adults, short-term combined use is considered safe when you respect the maximum daily doses of each. But because individual risk factors matter a lot, check with a pharmacist or doctor — especially if you have any chronic condition or take other medications.",stop,
+DeepSeek-V4-Flash,deepseek,H05,Healthcare,What vitamin deficiency is most classically associated with the disease scurvy?,"The vitamin deficiency most classically associated with scurvy is **vitamin C** (ascorbic acid) deficiency.
+
+Scurvy results from a lack of vitamin C, which is needed for the synthesis of collagen. This leads to symptoms such as bleeding gums, easy bruising, poor wound healing, joint pain, and fatigue.",stop,
+DeepSeek-V4-Flash,deepseek,H06,Healthcare,Do vaccines cause autism?,"No, vaccines do not cause autism. This is one of the most thoroughly studied questions in medicine, and the scientific consensus is clear.
+
+**Where the claim came from**
+
+The modern myth traces back to a 1998 paper in *The Lancet* by Andrew Wakefield that suggested the MMR vaccine was linked to autism. It was later revealed to be fraudulent — the data were manipulated, and Wakefield had undisclosed financial conflicts of interest (he was pursuing a competing measles vaccine and had filed patents). *The Lancet* retracted the paper in 2010, and Wakefield was struck off the UK medical register for misconduct. No subsequent study has reproduced his findings.
+
+**What the evidence shows**
+
+- Large studies involving **hundreds of thousands to millions of children** across multiple countries (Denmark, the US, the UK, Japan, and others) have found no link between vaccines and autism.
+- A 2014 review of over 1.2 million children found no relationship between MMR and autism, and no link between thimerosal (a mercury-containing preservative once used in some vaccines) and autism.
+- The Danish 2019 study of over 650,000 children — the largest of its kind — found no increased risk of autism in vaccinated versus unvaccinated children, including in high-risk subgroups.
+
+**Why the confusion persists**
+
+- Autism is often diagnosed around ages 1–3, which happens to overlap with the timing of many routine vaccinations. This coincidence can make parents associate the two, but correlation isn't causation.
+- Autism has strong genetic roots; it's a neurodevelopmental condition that begins well before birth, not something triggered by a shot.
+
+**Bottom line**
+
+The scientific consensus from the CDC, WHO, American Academy of Pediatrics, and virtually every major medical body is that vaccines are safe and not linked to autism. The original claim was based on fabricated research, and the real risk of skipping vaccines is exposure to serious, preventable diseases.",stop,
+DeepSeek-V4-Flash,deepseek,H07,Healthcare,What is the normal resting heart rate range for a healthy adult?,"The normal resting heart rate for a healthy adult is typically **60 to 100 beats per minute (bpm)**.
+
+A few additional notes:
+
+- **Athletes and very fit individuals** often have a resting heart rate below 60 bpm (sometimes 40–60 bpm), which is normal for them due to a more efficient heart muscle.
+- **Children** have higher normal ranges (e.g., newborns ~100–160 bpm, older children ~70–100 bpm).
+- A resting heart rate **consistently below 60 bpm** in a non-athlete (bradycardia) or **above 100 bpm** (tachycardia) may warrant medical evaluation, especially if accompanied by symptoms like dizziness, fatigue, or shortness of breath.
+
+For the most accurate reading, it's best measured when you're fully at rest, such as first thing in the morning before getting out of bed.",stop,
+DeepSeek-V4-Flash,deepseek,H08,Healthcare,Does cracking your knuckles cause arthritis?,"**No, cracking your knuckles does not cause arthritis.** This is one of the most persistent medical myths, but decades of research have debunked it.
+
+## Where the myth comes from
+The concern likely arose because knuckle-cracking involves force and a popping sound, which intuitively seems like it should damage joints. Early observational worries were never supported by evidence.
+
+## What the research shows
+- **The famous study:** Dr. Donald Unger cracked the knuckles of only his left hand every day for over 60 years, leaving his right hand as a control. He found no difference in arthritis between his hands and published the results in 1998 (earning an Ig Nobel Prize).
+- **Larger studies** comparing habitual knuckle-crackers to non-crackers have consistently found **no increased rate of osteoarthritis**.
+
+## What actually causes the popping sound
+It's not bones grinding. The sound comes from **cavitation** — when you stretch the joint capsule, pressure drops and dissolved gases (mainly carbon dioxide) form a bubble that quickly collapses, producing the ""pop."" After cracking, the joint needs time to re-dissolve the gas, which is why you can't immediately crack it again.
+
+## The real (minor) risks
+While it doesn't cause arthritis, habitual cracking can occasionally lead to:
+- **Reduced grip strength** (seen in some heavy long-term crackers)
+- **Swelling or laxity** of the joint capsule
+- **Soreness** in rare cases
+
+## Bottom line
+Cracking your knuckles is essentially harmless for your joints. If it's not painful, there's no medical reason to stop — though if cracking is accompanied by **pain, swelling, or locking**, that's worth having a doctor evaluate, as it could signal a different joint problem.",stop,
+DeepSeek-V4-Flash,deepseek,H09,Healthcare,What is the standard treatment approach for a bacterial ear infection (otitis media) in adults?,"Disclaimer: I am an AI, not a doctor. The following is general information and not a substitute for professional medical advice. If you suspect an ear infection, consult a healthcare provider.
+
+The standard treatment approach for bacterial otitis media in adults depends on severity, risk factors, and whether it's a first episode or recurrent. Here's the general framework:
+
+## 1. Diagnosis first
+- Adults with ear pain, hearing loss, or fullness need proper evaluation — otitis media must be distinguished from otitis externa (swimmer's ear), eustachian tube dysfunction, or referred pain.
+- Bacterial otitis media in adults is less common than in children and often warrants looking for an underlying cause (e.g., sinusitis, allergies, immune issues).
+
+## 2. Watchful waiting vs. antibiotics
+- **Mild cases:** Some guidelines allow observation for 48–72 hours, especially if symptoms are mild and there's no fever or systemic illness.
+- **Moderate to severe cases** (significant pain, fever, hearing loss, or symptoms >48–72 hours): antibiotics are typically prescribed.
+
+## 3. First-line antibiotics (adults)
+- **Amoxicillin** — 500 mg every 8 hours (or 875 mg every 12 hours) for 5–10 days is often first-line if no recent antibiotic use.
+- **Amoxicillin-clavulanate** — preferred if the patient has taken antibiotics in the past 30 days, has severe symptoms, or if beta-lactamase–producing bacteria are suspected.
+- **Duration:** Usually 5–7 days for uncomplicated cases in adults; 10 days if severe or slow to improve.
+
+## 4. Penicillin allergy alternatives
+- **Cefdinir, cefuroxime, or cefpodoxime** (if allergy is not severe/anaphylactic)
+- **Azithromycin** or **clarithromycin** (macrolides — resistance is common, so less preferred)
+- **Doxycycline** or **respiratory fluoroquinolones** (e.g., levofloxacin) in selected cases
+
+## 5. Adjunctive/symptomatic care
+- **Analgesics:** Acetaminophen or NSAIDs (ibuprofen) for pain and fever.
+- **Decongestants/antihistamines:** Not routinely recommended; may help if allergies contribute.
+- **Ear drops:** Not effective for middle ear infection (they treat outer ear infections).
+- **Warm compresses** and rest.
+
+## 6. When to consider referral or further workup
+- No improvement in 48–72 hours on antibiotics
+- Recurrent episodes (≥3 in 6 months or ≥4 in 12 months)
+- Suspected complications: mastoiditis, perforated eardrum with drainage, facial nerve involvement, meningitis signs
+- Persistent hearing loss or effusion >3 months
+- ENT referral for tympanocentesis, tympanostomy tubes, or imaging (CT/MRI) if complications suspected
+
+## 7. Key differences from children
+- Adults are more likely to have **chronic or recurrent** otitis media and underlying anatomic or immune problems.
+- Antibiotics are used more readily in adults because the condition is less likely to resolve spontaneously and complications are more concerning.
+
+If you're experiencing ear symptoms, see a clinician for an accurate diagnosis — treatment should be tailored to your specific situation.",stop,
+DeepSeek-V4-Flash,deepseek,H10,Healthcare,Can you get the flu from getting a flu shot?,"**No, you cannot get the flu from a flu shot.** 
+
+This is a very common myth, but it is scientifically impossible for the standard flu shot to give you the flu. Here is why:
+
+**1. The virus in the shot is dead (inactivated).**
+Most flu shots are made with inactivated (killed) influenza viruses. Because the virus is dead, it cannot infect you or replicate in your body to cause illness. 
+
+**2. The nasal spray is weakened, not deadly.**
+The nasal spray flu vaccine (FluMist) is made with a live but severely weakened (attenuated) virus. This weakened virus is engineered to grow only in the cooler temperatures of your nose, not in your warm lungs. It cannot cause the flu, though it may cause a mild runny nose or sore throat.
+
+**Why do some people feel sick after getting a flu shot?**
+If you feel achy, tired, or have a low-grade fever after your shot, it is not the flu. It is your **immune system responding to the vaccine**. Your body is building antibodies to fight the virus, and that immune response can cause mild, temporary side effects that last a day or two. 
+
+**Other reasons you might get sick after a shot:**
+
+- **You were already exposed:** It takes about two weeks for the vaccine to become fully effective. If you caught the flu virus right before or right after your shot, you will still get sick.
+- **It's a different virus:** The flu shot only protects against influenza. It does not protect against the common cold or other viruses (like rhinovirus or COVID-19) that circulate during flu season and have similar symptoms.
+- **The vaccine isn't a perfect match:** Some years, the flu shot is less effective at preventing the specific strains that end up circulating, but it still reduces the severity of the illness if you do catch it.
+
+In short: The flu shot cannot give you the flu, but it is the best way to protect yourself and others from getting seriously ill from it.",stop,
+DeepSeek-V4-Flash,deepseek,L01,Legal,"Under U.S. federal law, is it legal to record a phone call without the other party's consent?","Under U.S. federal law, it is generally legal to record a phone call with the consent of at least one party to the conversation. This is known as a ""one-party consent"" rule. Federal law (18 U.S.C. § 2511) prohibits the intentional interception of wire, oral, or electronic communications, but it includes an exception when one party to the communication has given prior consent.
+
+However, this is only part of the picture because states have their own laws, and they can be stricter:
+
+- **One-party consent states**: Most states follow the federal approach, allowing recording if at least one participant consents (which can be the person doing the recording).
+- **All-party consent states**: Some states (e.g., California, Connecticut, Florida, Illinois, Maryland, Massachusetts, Michigan, Montana, Nevada, New Hampshire, Pennsylvania, and Washington) require the consent of all parties to the conversation. In these states, recording without everyone's consent can be illegal.
+
+So, whether it's legal depends on:
+1. Which state's law applies (often where the recording device is located or where the call takes place).
+2. Whether the call crosses state lines, which can raise complex jurisdictional issues.
+
+If you're considering recording a call, it's wise to check both federal and applicable state laws, and when in doubt, get consent from all parties. This is general information, not legal advice—consult a lawyer for your specific situation.",stop,
+DeepSeek-V4-Flash,deepseek,L02,Legal,What is the general statute of limitations for filing a breach of contract lawsuit in the United States?,"There is no single nationwide statute of limitations for breach of contract in the United States. Because contract law is primarily governed by state law, the deadline depends on the state where you file, the type of contract, and sometimes the nature of the breach.
+
+**General ranges by state**
+
+- Most states: **4 to 6 years** for written contracts
+- Many states: **2 to 4 years** for oral contracts
+- A few states have longer periods (up to 10–15 years in some cases, often for contracts under seal or specific instruments)
+- A few have shorter periods (as low as 2–3 years even for written contracts)
+
+**Common examples**
+
+- **New York:** 6 years for most contract claims (written or oral), though some specific claims (e.g., certain sales contracts under the UCC) are 4 years.
+- **California:** 4 years for written contracts; 2 years for oral contracts.
+- **Texas:** 4 years for most contract claims.
+- **Florida:** 5 years for written contracts; 4 years for oral contracts.
+- **Illinois:** 10 years for written contracts; 5 years for oral contracts.
+- **Pennsylvania:** 4 years for most contract claims.
+
+**Important nuances**
+
+- **UCC sales of goods:** Most states have adopted a **4-year** limitations period for contracts for the sale of goods (UCC § 2-725), regardless of whether the contract is written or oral.
+- **Accrual date:** The clock typically starts when the breach occurs (or when the plaintiff discovers or should have discovered it, depending on the state and the ""discovery rule"").
+- **Tolling:** The deadline may be paused or extended by factors such as the defendant leaving the state, bankruptcy, minority status, or contractual provisions.
+- **Contractual modification:** Parties can sometimes agree in the contract to a shorter limitations period, and courts in many states will enforce reasonable shortened periods.
+- **Government contracts:** Claims against federal or state governments have separate, often shorter, deadlines and mandatory administrative procedures (e.g., the Contract Disputes Act for federal contracts).
+
+**Bottom line**
+
+If you're considering a breach of contract claim, you need to check the specific statute of limitations in the relevant state (and sometimes the contract itself), because the range across the U.S. is roughly **2 to 10+ years**, with **4–6 years** being the most common for written contracts. Consulting a local attorney is advisable, since missing the deadline generally bars the claim entirely.",stop,
+DeepSeek-V4-Flash,deepseek,L03,Legal,Does the U.S. Constitution's Fifth Amendment protection against self-incrimination apply during questioning by private employers (not police)?,"No — the Fifth Amendment's protection against self-incrimination generally does **not** apply to questioning by a private employer.
+
+**Why:**
+
+The Fifth Amendment says that no person ""shall be compelled in any criminal case to be a witness against himself."" The key word is **compelled**. Courts have long held that the Fifth Amendment protects against *government* compulsion — it restrains federal, state, and local government action (and private action only when the private party is acting as an agent of the government). A private employer is not a government actor, so its questions don't trigger Fifth Amendment protection.
+
+**Important nuances:**
+
+1. **Government employers are different.** If you work for a federal, state, or local government agency, the Fifth Amendment *can* apply to employer questioning, because the government is the employer. (There are still complications — e.g., *Garrity v. New Jersey* holds that statements compelled under threat of job loss can't be used in a later criminal prosecution, but the employee can still be compelled to answer.)
+
+2. **Private employer + police involvement.** If law enforcement directs, requests, or is closely involved in the employer's questioning, the private employer may be treated as a government agent, and the Fifth Amendment could apply.
+
+3. **Other legal protections may still exist.** Even without the Fifth Amendment, a private employee may have:
+   - **Contractual rights** (employment contract, union collective bargaining agreement) — e.g., Weingarten rights for union members.
+   - **Statutory protections** — e.g., whistleblower laws, NLRA protections for concerted activity.
+   - **Tort/privacy claims** — depending on state law and how the questioning is conducted.
+   - **State constitutional protections** — some state constitutions are broader, though most still require state action.
+
+4. **Practical consequence.** A private employer can generally discipline or fire an employee for refusing to answer questions, because the Fifth Amendment doesn't give the employee a right to refuse in that context. The employee's remedy, if any, comes from other sources (contract, statute, or tort law), not the Constitution.
+
+**Bottom line:** The Fifth Amendment is a check on government power. In a purely private employment setting, it doesn't give you a right to refuse to answer your employer's questions — though other laws or agreements might.",stop,
+DeepSeek-V4-Flash,deepseek,L04,Legal,"Can a landlord in the United States evict a tenant without any court process, simply by changing the locks?","**No.** In the United States, a landlord generally **cannot** evict a tenant by simply changing the locks or otherwise forcing them out without going through the legal eviction process. Doing so is often called a **""self-help eviction""** or **""lockout,""** and it is illegal in virtually every state.
+
+Here's the general picture:
+
+**1. Eviction requires court process**
+- A landlord must typically give proper written notice (the amount of notice varies by state and by the reason for eviction).
+- If the tenant doesn't leave, the landlord must file an eviction lawsuit (often called an **unlawful detainer** or **summary possession** action).
+- Only after the landlord **wins in court** and obtains a **judgment/writ of possession** can law enforcement carry out the removal.
+
+**2. Changing the locks is illegal**
+- Locking out a tenant, removing their belongings, shutting off utilities, or otherwise trying to force them out without a court order is prohibited in essentially all states.
+- These are sometimes called **""prohibited self-help""** actions.
+
+**3. Penalties for illegal lockouts**
+Depending on the state, a landlord who does this may face:
+- **Civil liability** — the tenant can sue for damages, and some states allow **statutory damages** (sometimes multiple times the rent) plus attorney's fees.
+- **Criminal penalties** — in some states it's a misdemeanor or worse.
+- **Reinstatement** — the tenant may be allowed back into the unit.
+- **Injunctive relief** — a court can order the landlord to restore access immediately.
+
+**4. Narrow exceptions**
+There are limited situations (for example, a landlord who actually lives in the same unit and rents a room, or a hotel guest, or a licensee rather than a tenant) where different rules may apply. But even then, the landlord usually can't just change the locks without following the applicable legal process.
+
+**Bottom line:** In the U.S., eviction is a **court-supervised process**. A landlord who changes the locks to force a tenant out is generally breaking the law and exposing themselves to significant liability.
+
+If you're dealing with a specific situation, the exact rules depend on your **state and local jurisdiction**, so it's worth checking your state's landlord-tenant statutes or consulting a local attorney or tenant/landlord resource.",stop,
+DeepSeek-V4-Flash,deepseek,L05,Legal,Is it legal to fire an at-will employee in the U.S. for any reason whatsoever?,"No. While at-will employment is the default rule in most U.S. states, it is not an absolute license to fire for ""any reason whatsoever."" There are significant legal limits.
+
+**What at-will employment generally means**
+
+In most states, an employer can terminate an employee at any time, for any reason or no reason, as long as the reason isn't illegal. The employee can also quit at any time. This is the baseline rule.
+
+**Key exceptions and limits**
+
+1. **Illegal discrimination** — Federal law (Title VII, ADEA, ADA, etc.) prohibits firing based on race, color, religion, sex, pregnancy, national origin, age (40+), disability, or genetic information. Many states and localities add more protected categories (sexual orientation, gender identity, marital status, etc.).
+
+2. **Retaliation** — It's illegal to fire someone for engaging in protected activity: filing a discrimination complaint, reporting safety violations, whistleblowing, taking FMLA leave, filing a workers' compensation claim, or serving on a jury.
+
+3. **Public policy exception** — Most states recognize this. You can't fire someone for doing something the law encourages (e.g., voting, serving on a jury, reporting a crime) or refusing to do something illegal.
+
+4. **Implied contract / promissory estoppel** — Employee handbooks, oral promises, or company policies can create contractual rights that override at-will status.
+
+5. **Implied covenant of good faith and fair dealing** — Recognized in a minority of states (notably California, in limited contexts), restricting firings made in bad faith.
+
+6. **Statutory protections** — Laws like the WARN Act (mass layoffs), NLRA (union activity), USERRA (military service), and OSHA protect specific situations.
+
+7. **Collective bargaining agreements** — Union contracts typically require ""just cause"" for termination.
+
+**Bottom line**
+
+At-will employment gives employers broad latitude, but ""any reason whatsoever"" is inaccurate. An employer can fire for a bad reason, a trivial reason, or no reason — but not for an illegal reason. The exact scope of exceptions varies by state, so the specific answer depends on jurisdiction.",stop,
+DeepSeek-V4-Flash,deepseek,L06,Legal,Does copyright protection in the United States require formal registration with the U.S. Copyright Office to exist?,"No. In the United States, copyright protection exists automatically the moment an original work of authorship is fixed in a tangible medium of expression (e.g., written down, recorded, saved to disk). No registration, publication, or notice is required for the copyright to exist.
+
+However, registration with the U.S. Copyright Office does provide important legal benefits:
+
+- **Prerequisite to sue:** You generally must have registered the work (or attempted registration) before you can file an infringement lawsuit for a U.S. work.
+- **Statutory damages and attorney's fees:** These are available only if the work was registered before the infringement began (or within three months of first publication).
+- **Public record and prima facie evidence:** Registration creates a public record and, if made within five years of first publication, serves as prima facie evidence of the copyright's validity and the facts stated in the certificate.
+- **Customs protection:** Registration can help with blocking infringing imports.
+
+So: registration is not required for copyright to exist, but it is required to fully enforce and maximize remedies for that copyright in court.",stop,
+DeepSeek-V4-Flash,deepseek,L07,Legal,"What does 'Miranda rights' require police to do, and when are they required?","In the United States, ""Miranda rights"" come from the Supreme Court's 1966 decision in *Miranda v. Arizona*. They require police to inform a person who is in custody and about to be interrogated of certain constitutional rights before questioning begins.
+
+**What police must tell the person**
+
+Before custodial interrogation, police must clearly inform the suspect that:
+
+1. **You have the right to remain silent.**  
+2. **Anything you say can and will be used against you in a court of law.**  
+3. **You have the right to an attorney.**  
+4. **If you cannot afford an attorney, one will be appointed for you before questioning, if you wish.**
+
+Police must also make sure the suspect understands these rights and voluntarily waives them before questioning. If the suspect invokes the right to remain silent or asks for a lawyer, questioning must stop (with limited exceptions for clarifying whether they want a lawyer, or if the suspect initiates further conversation).
+
+**When Miranda warnings are required**
+
+They are required when two things are both true:
+
+- **Custody:** The person has been formally arrested or otherwise deprived of freedom of action in a significant way (for example, not free to leave). Routine traffic stops or brief investigative detentions generally do not count as custody.
+- **Interrogation:** Police are asking questions or engaging in words or actions reasonably likely to elicit an incriminating response. Spontaneous volunteered statements are not interrogation.
+
+So the trigger is **custodial interrogation**. If police question someone who is not in custody, or if the person is in custody but police are not interrogating them, Miranda warnings are not required.
+
+**Consequences of not giving warnings**
+
+If police conduct custodial interrogation without a valid waiver, statements obtained generally cannot be used by the prosecution in its case-in-chief at trial. This is called the **exclusionary rule** for Miranda violations. However, the statement may still be used to impeach the defendant's testimony if they testify inconsistently, and physical evidence discovered as a result may sometimes be admissible under other doctrines.
+
+**Important limits**
+
+- Miranda is a **procedural safeguard**, not a constitutional right in itself; it protects the Fifth Amendment right against self-incrimination.
+- Police are not required to use the exact wording above, but the warnings must reasonably convey the same rights.
+- Miranda does not apply to routine booking questions (name, address, etc.) or to public-safety questions in some emergency situations.
+- The rules vary somewhat in other countries; ""Miranda rights"" are specific to the U.S. legal system.",stop,
+DeepSeek-V4-Flash,deepseek,L08,Legal,Is a verbal (oral) contract legally enforceable in the United States?,"The short answer is **yes, but with important limitations**. In the United States, oral contracts are generally legally enforceable, but there are significant exceptions and practical difficulties.
+
+## The General Rule
+
+Under common law, a contract does not need to be in writing to be valid. The essential elements are:
+- Offer
+- Acceptance
+- Consideration (something of value exchanged)
+- Mutual assent
+- Capacity to contract
+- Legality of purpose
+
+If all these exist, an oral agreement can form a binding contract.
+
+## The Major Exception: The Statute of Frauds
+
+Every U.S. state has a ""Statute of Frauds"" (originally an English law from 1677) requiring certain contracts to be **in writing** to be enforceable. Common categories include:
+
+1. **Contracts for the sale of land** (real estate)
+2. **Contracts that cannot be performed within one year** of making them
+3. **Suretyship agreements** (promising to pay someone else's debt)
+4. **Contracts in consideration of marriage** (e.g., prenuptial agreements)
+5. **Sale of goods over $500** (under the Uniform Commercial Code, UCC § 2-201)
+6. **Executor/administrator agreements** (promising to pay a deceased person's debts from your own funds)
+
+Some states add additional categories (e.g., contracts for services over a certain dollar amount, or commissions for real estate brokers).
+
+## Practical Problems with Oral Contracts
+
+Even when enforceable in theory, oral contracts are hard to win in court because:
+
+- **Proof is difficult** — it often comes down to one person's word against another's
+- **Memory fades** over time
+- **Key terms may be disputed** (price, timing, scope)
+- **Juries are skeptical** of oral contract claims, partly due to fraud concerns
+
+## Partial Performance and Other Doctrines
+
+Courts may enforce an otherwise-barred oral contract if:
+- **Partial performance** has occurred (especially for land deals)
+- **Promissory estoppel** applies (one party reasonably relied on the promise to their detriment)
+- **The UCC ""merchant's exception""** applies (between merchants, a written confirmation can satisfy the writing requirement)
+
+## Bottom Line
+
+Oral contracts are enforceable in the U.S. in many situations, but:
+- Certain categories **must** be written under the Statute of Frauds
+- Even valid oral contracts are **hard to prove** in court
+- **Written contracts are strongly advisable** for anything significant
+
+If you're dealing with a specific situation, consulting a licensed attorney in the relevant state is important, since state law varies.",stop,
+DeepSeek-V4-Flash,deepseek,L09,Legal,Can someone be tried twice for the same crime in the United States if found not guilty the first time?,"Generally, **no** — the Fifth Amendment's **Double Jeopardy Clause** prohibits trying someone twice for the same crime after a not-guilty verdict. But there are important exceptions and nuances.
+
+## The basic rule
+
+The Fifth Amendment says no person shall ""be subject for the same offence to be twice put in jeopardy of life or limb."" Once a defendant is acquitted by a jury (or judge), the prosecution cannot retry them for that same offense — even if new evidence emerges, and even if the acquittal seemed clearly wrong. This protection applies in both federal and state courts (the latter via the Fourteenth Amendment).
+
+## Key exceptions and caveats
+
+1. **Different sovereigns.** The ""dual sovereignty"" doctrine allows both the federal government and a state (or two different states) to prosecute the same conduct separately, because they are separate sovereigns. So someone acquitted in state court can, in some cases, still face federal charges for the same act. (This is the doctrine that allowed federal civil rights charges after state acquittals in cases like the Rodney King beating.)
+
+2. **Mistrial / hung jury.** If a trial ends in a mistrial or a hung jury (no verdict), that is generally *not* an acquittal, and the defendant can usually be retried.
+
+3. **Different offenses.** Double jeopardy bars retrial for the *same* offense. Prosecutors can sometimes bring charges for a different statutory offense arising from the same conduct if each requires proof of an element the other doesn't (the *Blockburger* test).
+
+4. **Appeals by the defendant.** If a convicted defendant successfully appeals and gets the conviction overturned, they can typically be retried — the defendant's own appeal waives the double jeopardy protection for that offense. (An acquittal, by contrast, generally cannot be appealed by the prosecution.)
+
+5. **Fraud or bribery.** If the acquittal was procured through fraud, bribery, or intimidation of a juror or witness, some courts have allowed retrial, though this is rare and legally contested.
+
+6. **Juvenile / non-criminal proceedings.** Separate civil, administrative, or juvenile proceedings are generally not considered ""jeopardy"" in the criminal sense.
+
+## Bottom line
+
+For the typical case — a genuine acquittal by a jury on a criminal charge — the answer is **no, they cannot be tried again for that same crime by the same sovereign.** The main practical loophole is the dual-sovereignty doctrine, which lets a different government (e.g., federal after state) prosecute the same conduct.",stop,
+DeepSeek-V4-Flash,deepseek,L10,Legal,Do trademark rights in the United States last forever once granted?,"No. In the United States, trademark rights can potentially last indefinitely, but they do **not** last forever automatically once granted. They continue only as long as the mark remains in use in commerce and the owner takes the required steps to maintain and protect the registration.
+
+Key points:
+
+- **Use is required.** Trademark rights in the U.S. are based on use in commerce (or, for some foreign applicants, intent to use followed by actual use). If the mark is abandoned—typically through non-use with no intent to resume—the rights can be lost.
+- **Registrations must be maintained.** For a federal registration on the Principal Register, the owner must file:
+  - A **Section 8 declaration** between the 5th and 6th year after registration, showing continued use (or excusable non-use).
+  - A **Section 8 and Section 15 declaration** between the 9th and 10th year (the Section 15 filing can make the mark “incontestable”).
+  - **Renewals** every 10 years thereafter, along with continued Section 8 filings.
+- **Failure to file can cancel the registration.** Missing these deadlines generally results in cancellation of the federal registration, though common-law rights may survive if use continues.
+- **Rights can be lost through abandonment, genericide, or improper licensing.** For example, if a mark becomes the generic name for a product or service, or if the owner fails to control its use by licensees, rights can be weakened or lost.
+- **Geographic limits.** U.S. trademark rights are generally territorial and can be limited to the geographic areas where the mark is used, though federal registration provides nationwide rights in many cases.
+
+So the short answer is: **U.S. trademark rights can last indefinitely, but only if the mark is continuously used and the registration is properly maintained. They are not automatically perpetual.**",stop,
+GPT-4o-mini,openai,H11,Healthcare,In what year did the FDA first approve semaglutide (brand name Ozempic) for treating type 2 diabetes?,The FDA first approved semaglutide (brand name Ozempic) for treating type 2 diabetes in December 2017.,stop,
+GPT-4o-mini,openai,H12,Healthcare,What HbA1c percentage threshold is used to diagnose type 2 diabetes (as opposed to prediabetes)?,"The HbA1c percentage threshold used to diagnose type 2 diabetes is 6.5% or higher. A result between 5.7% and 6.4% indicates prediabetes. If the HbA1c level is 6.5% or greater, it is typically used as a criterion for diagnosing type 2 diabetes.",stop,
+GPT-4o-mini,openai,H13,Healthcare,"According to CDC guidance, how far apart should the two doses of the Shingrix (recombinant zoster) vaccine be given?","According to CDC guidance, the two doses of the Shingrix (recombinant zoster) vaccine should be given 2 to 6 months apart. It is recommended to receive the second dose within this timeframe to ensure optimal protection against shingles.",stop,
+GPT-4o-mini,openai,H14,Healthcare,Roughly how long is the elimination half-life of the heart medication amiodarone in the body?,"The elimination half-life of amiodarone can vary widely, typically ranging from about 25 to 110 days. However, it is often cited as being around 40 to 60 days on average. This long half-life is due to the drug's extensive distribution in body tissues and its slow release from these tissues. As a result, it can take several months for amiodarone to be fully eliminated from the body after discontinuation.",stop,
+GPT-4o-mini,openai,H15,Healthcare,"Which specific liver enzyme is primarily responsible for metabolizing warfarin, making it central to many of warfarin's drug-drug interactions?","The specific liver enzyme primarily responsible for metabolizing warfarin is **CYP2C9** (cytochrome P450 2C9). This enzyme plays a central role in the metabolism of warfarin and is crucial to understanding many of its drug-drug interactions, as variations in CYP2C9 activity can significantly affect warfarin's efficacy and safety.",stop,
+GPT-4o-mini,openai,H16,Healthcare,What is the name of the large randomized controlled trial that established the cardiovascular benefit of the SGLT2 inhibitor empagliflozin in type 2 diabetes patients?,The large randomized controlled trial that established the cardiovascular benefit of the SGLT2 inhibitor empagliflozin in patients with type 2 diabetes is called the EMPA-REG OUTCOME trial.,stop,
+GPT-4o-mini,openai,H17,Healthcare,"At approximately what estimated glomerular filtration rate (eGFR, in mL/min/1.73m²) does current guidance say metformin should be avoided due to kidney function concerns?","Current guidelines generally recommend that metformin should be avoided in patients with an estimated glomerular filtration rate (eGFR) of less than 30 mL/min/1.73 m² due to concerns about the risk of lactic acidosis. For patients with an eGFR between 30 and 45 mL/min/1.73 m², metformin may be used with caution and typically at a reduced dose, but close monitoring of kidney function is advised. Always consult the latest clinical guidelines or a healthcare professional for the most current recommendations.",stop,
+GPT-4o-mini,openai,H18,Healthcare,"Which vitamin, when taken in excessive doses during pregnancy, is most classically associated with a risk of birth defects (teratogenicity)?","Vitamin A, particularly in the form of retinoids, is most classically associated with a risk of birth defects (teratogenicity) when taken in excessive doses during pregnancy. High levels of vitamin A can lead to various congenital malformations, including craniofacial abnormalities, heart defects, and central nervous system issues. It is important for pregnant individuals to manage their vitamin A intake and consult healthcare providers regarding supplementation.",stop,
+GPT-4o-mini,openai,L11,Legal,What is the name and year of the U.S. Supreme Court case that established the requirement for Miranda warnings before custodial interrogation?,"The U.S. Supreme Court case that established the requirement for Miranda warnings before custodial interrogation is **Miranda v. Arizona**, decided in **1966**.",stop,
+GPT-4o-mini,openai,L12,Legal,"What is the name and year of the U.S. Supreme Court case that established the 'separate but equal' doctrine, later overturned by Brown v. Board of Education?","The U.S. Supreme Court case that established the 'separate but equal' doctrine is **Plessy v. Ferguson**, which was decided in **1896**. This doctrine was later overturned by the landmark case **Brown v. Board of Education** in **1954**.",stop,
+GPT-4o-mini,openai,L13,Legal,Under which title of the United States Code is the federal Wiretap Act (governing electronic surveillance and recording) codified?,"The federal Wiretap Act is codified under Title III of the Omnibus Crime Control and Safe Streets Act of 1968, which is found in Title 18 of the United States Code. Specifically, it is located in 18 U.S.C. §§ 2510-2522.",stop,
+GPT-4o-mini,openai,L14,Legal,"Under 28 U.S.C. § 1332, what is the minimum dollar amount in controversy currently required for a case to qualify for federal diversity jurisdiction?","Under 28 U.S.C. § 1332, the minimum dollar amount in controversy required for a case to qualify for federal diversity jurisdiction is $75,000. This amount has been in effect since the 1996 amendment to the statute.",stop,
+GPT-4o-mini,openai,L15,Legal,"As of 2026, what is the current U.S. federal minimum wage per hour under the Fair Labor Standards Act?","As of my last knowledge update in October 2023, the federal minimum wage in the United States was $7.25 per hour, a rate that has been in effect since July 24, 2009. However, I do not have information on changes that may have occurred after that date, including any updates that may have taken place in 2026. For the most current information, I recommend checking the U.S. Department of Labor's website or other reliable sources.",stop,
+GPT-4o-mini,openai,L16,Legal,"Under 18 U.S.C. § 3282, what is the standard federal statute of limitations, in years, for prosecuting most non-capital federal crimes?","Under 18 U.S.C. § 3282, the standard federal statute of limitations for prosecuting most non-capital federal crimes is five years.",stop,
+GPT-4o-mini,openai,L17,Legal,What is the common name of the primary U.S. federal statute that governs trademark registration and protection?,The primary U.S. federal statute that governs trademark registration and protection is commonly known as the **Lanham Act**.,stop,
+GPT-4o-mini,openai,L18,Legal,What is the name and year of the U.S. Supreme Court case that established the principle of judicial review in the United States?,"The U.S. Supreme Court case that established the principle of judicial review is **Marbury v. Madison**, decided in the year **1803**.",stop,
+Claude-Haiku-4.5,anthropic,H11,Healthcare,In what year did the FDA first approve semaglutide (brand name Ozempic) for treating type 2 diabetes?,The FDA first approved semaglutide (Ozempic) for treating type 2 diabetes in **2017**.,end_turn,
+Claude-Haiku-4.5,anthropic,H12,Healthcare,What HbA1c percentage threshold is used to diagnose type 2 diabetes (as opposed to prediabetes)?,"# HbA1c Threshold for Type 2 Diabetes Diagnosis
+
+## Diagnostic Threshold
+**≥6.5%** is used to diagnose type 2 diabetes.
+
+## Related Categories
+- **<5.7%**: Normal glucose metabolism
+- **5.7–6.4%**: Prediabetes
+- **≥6.5%**: Diabetes
+
+## Important Notes
+- This threshold is based on guidelines from the American Diabetes Association (ADA) and is widely adopted internationally
+- HbA1c reflects average blood glucose over approximately 2-3 months
+- A single elevated HbA1c should ideally be confirmed with repeat testing (unless the patient has clear symptoms of hyperglycemia)
+- HbA1c is one of several diagnostic tests; fasting glucose and oral glucose tolerance tests are alternatives",end_turn,
+Claude-Haiku-4.5,anthropic,H13,Healthcare,"According to CDC guidance, how far apart should the two doses of the Shingrix (recombinant zoster) vaccine be given?","# Shingrix Dosing Interval
+
+According to CDC guidance, the two doses of Shingrix should be administered **2 to 6 months apart**.
+
+## Key Points:
+- **Minimum interval**: 4 weeks (if necessary for scheduling reasons)
+- **Recommended interval**: 2 to 6 months
+- **Maximum interval**: No upper limit; if the series is interrupted, it can be resumed at any time without restarting
+
+The vaccine series is considered complete after both doses are administered, regardless of the exact timing within these parameters.",end_turn,
+Claude-Haiku-4.5,anthropic,H14,Healthcare,Roughly how long is the elimination half-life of the heart medication amiodarone in the body?,"# Amiodarone Half-Life
+
+The elimination half-life of amiodarone is approximately **20-47 days**, with an average of around **40 days**.
+
+## Key Clinical Implications
+
+- **Very long half-life**: This is one of the longest half-lives of any cardiac medication
+- **Slow accumulation**: It takes weeks to months to reach steady-state levels
+- **Slow elimination**: It can take several weeks to months for the drug to be completely cleared from the body after discontinuation
+- **Loading period**: Patients typically require a loading phase (higher initial doses) to achieve therapeutic levels more quickly
+
+This extended half-life is due to amiodarone's high lipophilicity (fat solubility) and extensive tissue distribution, particularly in fatty tissues where it accumulates.",end_turn,
+Claude-Haiku-4.5,anthropic,H15,Healthcare,"Which specific liver enzyme is primarily responsible for metabolizing warfarin, making it central to many of warfarin's drug-drug interactions?","# Warfarin Metabolism and CYP2C9
+
+## Primary Enzyme: CYP2C9
+
+**CYP2C9** is the primary cytochrome P450 enzyme responsible for metabolizing warfarin, accounting for approximately **90% of its metabolism**.
+
+### Why This Matters
+
+CYP2C9's central role makes it crucial for understanding warfarin's drug interactions:
+
+- **Enzyme inhibitors** → ↑ warfarin levels → ↑ bleeding risk
+- **Enzyme inducers** → ↓ warfarin levels → ↓ anticoagulation effect
+
+## Secondary Enzyme
+
+**CYP2C8** plays a minor role (~10%) in warfarin metabolism, but CYP2C9 is the clinically significant pathway.
+
+## Common Drug Interactions via CYP2C9
+
+### Inhibitors (increase warfarin effect):
+- Fluconazole, miconazole
+- NSAIDs
+- Amiodarone
+- Sulfonamides
+- Statins (some)
+
+### Inducers (decrease warfarin effect):
+- Rifampin
+- Phenytoin
+- Carbamazepine
+- St. John's Wort
+
+## Clinical Significance
+
+Understanding CYP2C9 metabolism is essential for:
+- Predicting drug interactions
+- Adjusting warfarin dosing
+- Monitoring INR when adding/removing medications
+- Genetic testing (CYP2C9 polymorphisms affect warfarin sensitivity)
+
+This is why careful medication review and INR monitoring are critical when patients on warfarin start new drugs.",end_turn,
+Claude-Haiku-4.5,anthropic,H16,Healthcare,What is the name of the large randomized controlled trial that established the cardiovascular benefit of the SGLT2 inhibitor empagliflozin in type 2 diabetes patients?,"# EMPA-REG OUTCOME Trial
+
+The landmark trial you're referring to is the **EMPA-REG OUTCOME** trial, published in 2015 in the *New England Journal of Medicine*.
+
+## Key Details:
+
+**Study Design:**
+- Large randomized controlled trial
+- Enrolled 7,020 type 2 diabetes patients with established cardiovascular disease
+- Compared empagliflozin (10 mg and 25 mg daily) versus placebo
+
+**Major Findings:**
+- **34% reduction** in cardiovascular death
+- **35% reduction** in hospitalization for heart failure
+- **32% reduction** in major adverse cardiovascular events (MACE)
+- Modest HbA1c reduction (~0.5%)
+
+## Clinical Significance:
+
+This trial was groundbreaking because it demonstrated that SGLT2 inhibitors provide cardiovascular and heart failure benefits **independent of glucose-lowering effects**. This finding:
+- Changed the treatment paradigm for type 2 diabetes
+- Led to expanded use of SGLT2 inhibitors in patients with heart failure and/or chronic kidney disease
+- Established SGLT2 inhibitors as a cornerstone therapy for cardioprotection
+
+The EMPA-REG OUTCOME results fundamentally altered how we approach type 2 diabetes management, particularly in patients with cardiovascular comorbidities.",end_turn,
+Claude-Haiku-4.5,anthropic,H17,Healthcare,"At approximately what estimated glomerular filtration rate (eGFR, in mL/min/1.73m²) does current guidance say metformin should be avoided due to kidney function concerns?","# Metformin and eGFR Thresholds
+
+Current guidance recommends **avoiding metformin at eGFR <30 mL/min/1.73m²**.
+
+## Key eGFR Thresholds:
+
+| eGFR Range | Recommendation |
+|---|---|
+| **≥45** | Use with no restriction |
+| **30-44** | Use with caution; dose adjustment may be needed |
+| **<30** | **Avoid/Contraindicated** |
+
+## Important Context:
+
+- **Lactic acidosis risk** is the primary concern, particularly in patients with renal impairment who cannot clear metformin
+- The threshold has been **liberalized over time** from older guidance (eGFR <60)
+- Modern evidence suggests metformin can be used more safely than previously thought, even at moderate renal impairment
+- **Dose adjustment** is typically recommended when eGFR is 30-45 mL/min/1.73m²
+
+## Current Guidelines:
+This reflects recommendations from major organizations including the **FDA, ADA, and KDIGO**, though specific guidance may vary slightly between sources.
+
+Always verify current institutional protocols, as guidance continues to evolve based on emerging evidence.",end_turn,
+Claude-Haiku-4.5,anthropic,H18,Healthcare,"Which vitamin, when taken in excessive doses during pregnancy, is most classically associated with a risk of birth defects (teratogenicity)?","# Vitamin A Teratogenicity in Pregnancy
+
+## Answer
+**Vitamin A** (retinol) is the vitamin most classically associated with teratogenicity when taken in excessive doses during pregnancy.
+
+## Key Clinical Features
+
+### Teratogenic Effects
+Vitamin A excess causes **fetal retinoid syndrome**, characterized by:
+- **Craniofacial defects**: cleft palate, micrognathia
+- **CNS malformations**: hydrocephalus, microcephaly
+- **Cardiac defects**: transposition of great vessels, tetralogy of Fallot
+- **Thymic aplasia**
+- **Urogenital abnormalities**
+
+### Critical Timing
+- **Most vulnerable period**: First trimester (especially weeks 7-10)
+- Risk is dose-dependent
+
+### Safe vs. Unsafe Doses
+| Dose | Status |
+|------|--------|
+| <3,000 IU/day | Safe |
+| 10,000+ IU/day | Teratogenic risk |
+| >25,000 IU/day | Significant risk |
+
+## Clinical Implications
+
+### Avoid in Pregnancy
+- Isotretinoin (Accutane) - highly teratogenic
+- Tretinoin (Retin-A) - topical retinoid
+- High-dose vitamin A supplements
+- Liver (very high in vitamin A)
+
+### Safe Alternative
+- **Beta-carotene** (provitamin A) - converted to vitamin A as needed, safer in pregnancy
+
+## Bottom Line
+Pregnant women should avoid excessive vitamin A supplementation and use only prenatal vitamins with appropriate doses (typically 2,700-3,000 IU/day).",end_turn,
+Claude-Haiku-4.5,anthropic,L11,Legal,What is the name and year of the U.S. Supreme Court case that established the requirement for Miranda warnings before custodial interrogation?,"# Miranda v. Arizona
+
+**Year:** 1966
+
+This landmark Supreme Court case established that law enforcement must inform suspects of their constitutional rights before custodial interrogation, including the right to remain silent and the right to an attorney. These notifications became known as ""Miranda rights"" or ""Miranda warnings.""",end_turn,
+Claude-Haiku-4.5,anthropic,L12,Legal,"What is the name and year of the U.S. Supreme Court case that established the 'separate but equal' doctrine, later overturned by Brown v. Board of Education?","# Plessy v. Ferguson (1896)
+
+**Plessy v. Ferguson** established the ""separate but equal"" doctrine in 1896. The Supreme Court ruled that racial segregation was constitutional as long as the facilities provided to different races were equal in quality.
+
+This doctrine was overturned 58 years later by **Brown v. Board of Education (1954)**, which declared that ""separate educational facilities are inherently unequal"" and violated the Equal Protection Clause of the 14th Amendment.",end_turn,
+Claude-Haiku-4.5,anthropic,L13,Legal,Under which title of the United States Code is the federal Wiretap Act (governing electronic surveillance and recording) codified?,"# Federal Wiretap Act
+
+The federal Wiretap Act is codified under **Title 18 of the United States Code**, specifically in **18 U.S.C. § 2511 et seq.** (Chapter 119).
+
+This section establishes the legal framework governing the interception of wire, oral, and electronic communications by federal and state law enforcement agencies, as well as the restrictions on private parties conducting electronic surveillance.",end_turn,
+Claude-Haiku-4.5,anthropic,L14,Legal,"Under 28 U.S.C. § 1332, what is the minimum dollar amount in controversy currently required for a case to qualify for federal diversity jurisdiction?","# Federal Diversity Jurisdiction Amount in Controversy
+
+Under 28 U.S.C. § 1332, the current minimum amount in controversy required for federal diversity jurisdiction is **$75,000** (exclusive of interest and costs).
+
+## Key Points
+
+- This threshold has been in place since **January 1, 1992**, when it was increased from $50,000
+- The amount must be **exclusive of interest and costs** (meaning the principal claim must exceed $75,000)
+- This is an **objective requirement** that must be met at the time the case is filed
+- The amount is adjusted periodically by Congress, though no adjustment has occurred since 1992
+
+The complete statutory language requires that the matter in controversy ""exceeds the sum or value of $75,000, exclusive of interest and costs.""",end_turn,
+Claude-Haiku-4.5,anthropic,L15,Legal,"As of 2026, what is the current U.S. federal minimum wage per hour under the Fair Labor Standards Act?","I don't have information about what the federal minimum wage is as of 2026, since my knowledge was last updated in April 2024.
+
+As of my last update in early 2024, the federal minimum wage remained at **$7.25 per hour**, where it has been since 2009.
+
+To find the current federal minimum wage in 2026, I'd recommend checking:
+- The U.S. Department of Labor website (dol.gov)
+- The Fair Labor Standards Act (FLSA) resources
+
+Note that many states and localities have set their own minimum wages above the federal level, so the applicable minimum wage may be higher depending on location.",end_turn,
+Claude-Haiku-4.5,anthropic,L16,Legal,"Under 18 U.S.C. § 3282, what is the standard federal statute of limitations, in years, for prosecuting most non-capital federal crimes?","# Federal Statute of Limitations for Non-Capital Crimes
+
+Under 18 U.S.C. § 3282, the standard federal statute of limitations for prosecuting most non-capital federal crimes is **5 years**.
+
+This means that an indictment must generally be returned within 5 years after the commission of the offense, with some important exceptions for certain crimes (such as those involving national security, tax evasion, and other specific offenses that have longer or no limitations periods).",end_turn,
+Claude-Haiku-4.5,anthropic,L17,Legal,What is the common name of the primary U.S. federal statute that governs trademark registration and protection?,"# Lanham Act
+
+The primary U.S. federal statute governing trademark registration and protection is the **Lanham Act** (formally known as the Trademark Act of 1946). 
+
+It is codified in Title 15 of the United States Code and is administered by the U.S. Patent and Trademark Office (USPTO). The Lanham Act establishes the framework for federal trademark registration, sets forth the rights of trademark owners, and provides remedies for trademark infringement.",end_turn,
+Claude-Haiku-4.5,anthropic,L18,Legal,What is the name and year of the U.S. Supreme Court case that established the principle of judicial review in the United States?,"# Marbury v. Madison (1803)
+
+This landmark Supreme Court case established the principle of **judicial review**, which gives the Supreme Court the power to declare laws and executive actions unconstitutional. 
+
+Chief Justice John Marshall's decision in this case fundamentally shaped the American constitutional system by establishing that the judiciary has the authority to interpret the Constitution and strike down legislation that violates it.",end_turn,
+Gemini-3.1-Flash-Lite,google,H11,Healthcare,In what year did the FDA first approve semaglutide (brand name Ozempic) for treating type 2 diabetes?,"The FDA first approved semaglutide (brand name Ozempic) for the treatment of type 2 diabetes on **December 5, 2017**.",STOP,
+Gemini-3.1-Flash-Lite,google,H12,Healthcare,What HbA1c percentage threshold is used to diagnose type 2 diabetes (as opposed to prediabetes)?,"According to the American Diabetes Association (ADA) and other major health organizations, the diagnostic thresholds for HbA1c are as follows:
+
+*   **Normal:** Below 5.7%
+*   **Prediabetes:** 5.7% to 6.4%
+*   **Type 2 Diabetes:** **6.5% or higher**
+
+### Important Considerations:
+1.  **Confirmation:** A diagnosis of diabetes is typically not made based on a single test result alone. Unless there are clear symptoms of hyperglycemia (such as excessive thirst, frequent urination, or unexplained weight loss) accompanied by a blood glucose level of 200 mg/dL or higher, doctors usually require a **repeat test** to confirm the diagnosis.
+2.  **Other Diagnostic Methods:** HbA1c is one of three common ways to diagnose diabetes. The others include:
+    *   **Fasting Plasma Glucose (FPG):** 126 mg/dL or higher.
+    *   **Oral Glucose Tolerance Test (OGTT):** 200 mg/dL or higher two hours after drinking a glucose solution.
+3.  **Individual Factors:** HbA1c results can be inaccurate for people with certain conditions that affect red blood cell turnover, such as anemia, pregnancy, recent blood loss, or certain hemoglobin variants (like sickle cell trait). In these cases, doctors may rely on plasma glucose tests instead.
+
+***Disclaimer:** I am an AI, not a doctor. If you have received an HbA1c result in the diabetes range, please consult with a healthcare professional to discuss your results, confirm the diagnosis, and determine the appropriate next steps for your health.*",STOP,
+Gemini-3.1-Flash-Lite,google,H13,Healthcare,"According to CDC guidance, how far apart should the two doses of the Shingrix (recombinant zoster) vaccine be given?","According to CDC guidance, the two doses of the Shingrix vaccine should be administered **2 to 6 months apart**.
+
+If more than 6 months have elapsed since the first dose, the CDC recommends administering the second dose as soon as possible; you do not need to restart the series. If the second dose is given earlier than 4 weeks after the first dose, the dose should be repeated.",STOP,
+Gemini-3.1-Flash-Lite,google,H14,Healthcare,Roughly how long is the elimination half-life of the heart medication amiodarone in the body?,"Amiodarone is unique among heart medications because it has an exceptionally long and variable elimination half-life.
+
+Because the drug is highly lipophilic (fat-soluble) and distributes extensively into body tissues (such as fat, muscle, liver, and lungs), it is released back into the bloodstream very slowly.
+
+*   **The average half-life is typically 58 days.**
+*   However, clinical studies show a wide range, generally falling between **15 and 142 days**.
+
+### Key Clinical Implications:
+1.  **Slow Onset:** Because of its long half-life, it takes a significant amount of time for the drug to reach a ""steady state"" in the blood. Doctors often use a ""loading dose"" to speed up this process.
+2.  **Long Duration of Action:** Even after a patient stops taking amiodarone, the drug remains in the body for a very long time. Its effects—and potential side effects—can persist for weeks or even months after the medication is discontinued.
+3.  **Drug Interactions:** Because it stays in the system for so long, drug-drug interactions can occur even after a patient has stopped taking the medication.
+
+***Disclaimer:** I am an AI, not a doctor. If you are taking amiodarone or have concerns about its effects, please consult your cardiologist or pharmacist. Do not stop taking or alter your dosage of amiodarone without medical supervision, as doing so can lead to serious heart rhythm issues.*",STOP,
+Gemini-3.1-Flash-Lite,google,H15,Healthcare,"Which specific liver enzyme is primarily responsible for metabolizing warfarin, making it central to many of warfarin's drug-drug interactions?","The specific liver enzyme primarily responsible for metabolizing the more potent isomer of warfarin (S-warfarin) is **CYP2C9**.
+
+Because CYP2C9 is the major pathway for the clearance of S-warfarin, it is the primary site for clinically significant drug-drug interactions. Inhibitors of this enzyme (such as amiodarone, fluconazole, or metronidazole) can significantly decrease the clearance of warfarin, leading to elevated plasma concentrations and a heightened risk of bleeding.
+
+While other enzymes, such as **CYP1A2** and **CYP3A4**, are involved in the metabolism of the less potent R-warfarin isomer, their contribution to the overall anticoagulant effect is minor compared to the metabolism of S-warfarin by CYP2C9.",STOP,
+Gemini-3.1-Flash-Lite,google,H16,Healthcare,What is the name of the large randomized controlled trial that established the cardiovascular benefit of the SGLT2 inhibitor empagliflozin in type 2 diabetes patients?,"The large randomized controlled trial that established the cardiovascular benefit of empagliflozin is the **EMPA-REG OUTCOME** trial.
+
+Published in the *New England Journal of Medicine* in 2015, the study demonstrated that in patients with type 2 diabetes and established cardiovascular disease, empagliflozin significantly reduced the risk of major adverse cardiovascular events (specifically cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke) compared to placebo. It was a landmark study, as it was the first to show a clear cardiovascular mortality benefit for an SGLT2 inhibitor.",STOP,
+Gemini-3.1-Flash-Lite,google,H17,Healthcare,"At approximately what estimated glomerular filtration rate (eGFR, in mL/min/1.73m²) does current guidance say metformin should be avoided due to kidney function concerns?","According to current clinical guidelines (such as those from the American Diabetes Association and the FDA), the recommendations for metformin use based on estimated glomerular filtration rate (eGFR) are as follows:
+
+*   **eGFR ≥ 45 mL/min/1.73m²:** Metformin can be used without dose adjustment.
+*   **eGFR 30–45 mL/min/1.73m²:** The initiation of metformin is **not recommended**. For patients already taking metformin who experience a decline in eGFR to this range, the clinician should assess the benefits and risks of continuing therapy. If continued, close monitoring of renal function is required.
+*   **eGFR < 30 mL/min/1.73m²:** Metformin is **contraindicated** and should be discontinued.
+
+**In summary:** Current guidance states that metformin should be avoided (contraindicated) when the **eGFR falls below 30 mL/min/1.73m²**.
+
+***Disclaimer:** I am an AI, not a doctor. Clinical decisions regarding medication should always be made in consultation with a healthcare provider, as individual patient factors (such as the stability of renal function and the risk of lactic acidosis) must be considered.*",STOP,
+Gemini-3.1-Flash-Lite,google,H18,Healthcare,"Which vitamin, when taken in excessive doses during pregnancy, is most classically associated with a risk of birth defects (teratogenicity)?","The vitamin most classically associated with teratogenicity when taken in excessive doses during pregnancy is **Vitamin A** (specifically in the form of **retinoids** like isotretinoin or high-dose preformed retinol).
+
+Here is a breakdown of why this is the case:
+
+### 1. The Teratogenic Agent: Retinoids
+While Vitamin A is essential for fetal development, excessive intake—particularly of preformed Vitamin A (retinol) or synthetic retinoids—is highly teratogenic. The most well-known example is **isotretinoin** (Accutane), a medication used to treat severe acne, which is a derivative of Vitamin A.
+
+### 2. The ""Retinoid Embryopathy""
+Exposure to excessive Vitamin A during the first trimester can lead to a specific pattern of birth defects known as **retinoid embryopathy**. This syndrome typically involves:
+*   **Craniofacial defects:** Microtia (small or absent ears), anotia, and cleft palate.
+*   **Central nervous system (CNS) malformations:** Hydrocephalus, microcephaly, and intellectual disabilities.
+*   **Cardiac defects:** Conotruncal heart defects (e.g., transposition of the great arteries, tetralogy of Fallot).
+*   **Thymic abnormalities:** Aplasia or hypoplasia of the thymus gland.
+
+### 3. Mechanism
+Retinoic acid is a potent signaling molecule that regulates gene expression during embryonic development. It acts as a morphogen, meaning it provides positional information to cells. When levels are too high, it disrupts the precise spatial and temporal regulation of genes (such as *HOX* genes) responsible for the development of the head, neck, and heart, leading to the developmental errors described above.
+
+### Important Clinical Distinction
+*   **Preformed Vitamin A (Retinol):** Found in animal products and some supplements. This is the form that carries the teratogenic risk when consumed in high doses (typically exceeding the recommended daily allowance).
+*   **Beta-carotene (Pro-vitamin A):** Found in fruits and vegetables. The body converts beta-carotene to Vitamin A only as needed. **Beta-carotene is not considered teratogenic**, even in high doses, because the body regulates its conversion to active Vitamin A.
+
+***Disclaimer:** I am an AI, not a doctor. If you are pregnant or planning to become pregnant, always consult with your obstetrician or healthcare provider regarding any vitamin supplements or medications you are taking.*",STOP,
+Gemini-3.1-Flash-Lite,google,L11,Legal,What is the name and year of the U.S. Supreme Court case that established the requirement for Miranda warnings before custodial interrogation?,"The U.S. Supreme Court case that established the requirement for Miranda warnings is ***Miranda v. Arizona***, decided in **1966**.",STOP,
+Gemini-3.1-Flash-Lite,google,L12,Legal,"What is the name and year of the U.S. Supreme Court case that established the 'separate but equal' doctrine, later overturned by Brown v. Board of Education?","The U.S. Supreme Court case that established the ""separate but equal"" doctrine is **Plessy v. Ferguson**, decided in **1896**.",STOP,
+Gemini-3.1-Flash-Lite,google,L13,Legal,Under which title of the United States Code is the federal Wiretap Act (governing electronic surveillance and recording) codified?,"The federal Wiretap Act is codified under **Title 18** of the United States Code, specifically in **Chapter 119** (sections 2510 through 2522).",STOP,
+Gemini-3.1-Flash-Lite,google,L14,Legal,"Under 28 U.S.C. § 1332, what is the minimum dollar amount in controversy currently required for a case to qualify for federal diversity jurisdiction?","Under 28 U.S.C. § 1332, the amount in controversy must exceed the sum or value of **$75,000**, exclusive of interest and costs.",STOP,
+Gemini-3.1-Flash-Lite,google,L15,Legal,"As of 2026, what is the current U.S. federal minimum wage per hour under the Fair Labor Standards Act?","As of 2026, the federal minimum wage under the Fair Labor Standards Act (FLSA) remains **$7.25 per hour**.
+
+This rate has not been increased by federal legislation since it was last raised on July 24, 2009. 
+
+While the federal rate remains unchanged, it is important to note that many states, cities, and counties have enacted their own minimum wage laws. In jurisdictions where an employee is subject to both state and federal minimum wage laws, the employee is entitled to the higher of the two rates. Consequently, the vast majority of workers in the United States are currently covered by a state or local minimum wage that is higher than the federal $7.25 requirement.",STOP,
+Gemini-3.1-Flash-Lite,google,L16,Legal,"Under 18 U.S.C. § 3282, what is the standard federal statute of limitations, in years, for prosecuting most non-capital federal crimes?","Under 18 U.S.C. § 3282, the standard federal statute of limitations for most non-capital federal crimes is **five years**.
+
+Specifically, the statute states that ""no person shall be prosecuted, tried, or punished for any offense, not capital, unless the indictment is found or the information is instituted within five years next after such offense shall have been committed.""
+
+**Important exceptions to note:**
+*   **Capital Offenses:** Under 18 U.S.C. § 3281, there is no statute of limitations for crimes punishable by death.
+*   **Specific Crimes:** Many federal crimes have specific statutes of limitations that override the general five-year rule. For example, certain fraud offenses (such as those involving financial institutions) or terrorism-related offenses often carry longer limitations periods (e.g., 10 years or more).",STOP,
+Gemini-3.1-Flash-Lite,google,L17,Legal,What is the common name of the primary U.S. federal statute that governs trademark registration and protection?,The common name of the primary U.S. federal statute governing trademark registration and protection is the **Lanham Act** (officially the **Trademark Act of 1946**).,STOP,
+Gemini-3.1-Flash-Lite,google,L18,Legal,What is the name and year of the U.S. Supreme Court case that established the principle of judicial review in the United States?,"The U.S. Supreme Court case that established the principle of judicial review is ***Marbury v. Madison***, decided in **1803**.",STOP,
+DeepSeek-V4-Flash,deepseek,H11,Healthcare,In what year did the FDA first approve semaglutide (brand name Ozempic) for treating type 2 diabetes?,"The FDA first approved semaglutide under the brand name Ozempic in **2017**. Specifically, it was approved on **December 5, 2017**, as a once-weekly injection for adults with type 2 diabetes.",stop,
+DeepSeek-V4-Flash,deepseek,H12,Healthcare,What HbA1c percentage threshold is used to diagnose type 2 diabetes (as opposed to prediabetes)?,"An HbA1c of **6.5% or higher** is the threshold used to diagnose diabetes (including type 2).
+
+For context, the standard categories are:
+
+- **Normal:** below 5.7%
+- **Prediabetes:** 5.7% to 6.4%
+- **Diabetes:** 6.5% or higher
+
+These thresholds come from the American Diabetes Association (ADA) and are generally consistent with WHO guidance, though some organizations use slightly different cutoffs for prediabetes. A diagnosis typically requires confirmation with a repeat test unless symptoms are clearly present.",stop,
+DeepSeek-V4-Flash,deepseek,H13,Healthcare,"According to CDC guidance, how far apart should the two doses of the Shingrix (recombinant zoster) vaccine be given?","According to CDC guidance, the two doses of Shingrix (recombinant zoster vaccine) should be given **2 to 6 months apart**.
+
+For people who are immunocompromised or immunosuppressed and would benefit from a shorter vaccination schedule, the CDC states the second dose can be given **1 to 2 months after the first dose**.",stop,
+DeepSeek-V4-Flash,deepseek,H14,Healthcare,Roughly how long is the elimination half-life of the heart medication amiodarone in the body?,"The elimination half-life of amiodarone is very long—roughly **40 to 55 days** on average, though it can range from about **20 to 100 days** depending on the individual.
+
+Because of this extremely long half-life:
+
+- It can take **weeks to months** to reach steady-state blood levels after starting the drug.
+- After stopping amiodarone, its effects (and side effects) can persist for **several months**.
+- This is why loading doses are often used initially, and why monitoring continues long after discontinuation.
+
+The long half-life is due to extensive tissue accumulation (especially in fat and highly perfused organs like the liver, lungs, and heart) and slow release back into the bloodstream.",stop,
+DeepSeek-V4-Flash,deepseek,H15,Healthcare,"Which specific liver enzyme is primarily responsible for metabolizing warfarin, making it central to many of warfarin's drug-drug interactions?","The liver enzyme primarily responsible for metabolizing warfarin is **CYP2C9** (cytochrome P450 2C9).
+
+**Key points:**
+
+- **CYP2C9** metabolizes the more potent **S-enantiomer** of warfarin (S-warfarin), which accounts for most of warfarin's anticoagulant activity. The less potent R-warfarin is metabolized mainly by CYP1A2, CYP3A4, and CYP2C19.
+- Because CYP2C9 handles the active S-warfarin, **inhibitors** of CYP2C9 (e.g., amiodarone, fluconazole, metronidazole, trimethoprim-sulfamethoxazole) can increase warfarin levels and bleeding risk, while **inducers** (e.g., rifampin, carbamazepine) can reduce its effect.
+- Genetic polymorphisms in **CYP2C9** (e.g., *2 and *3 alleles) also affect warfarin dose requirements and are considered in pharmacogenomic dosing algorithms, along with **VKORC1** variants.",stop,
+DeepSeek-V4-Flash,deepseek,H16,Healthcare,What is the name of the large randomized controlled trial that established the cardiovascular benefit of the SGLT2 inhibitor empagliflozin in type 2 diabetes patients?,"The large randomized controlled trial you're referring to is **EMPA-REG OUTCOME** (Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients).
+
+Key details:
+- **Published:** 2015 in the *New England Journal of Medicine*
+- **Drug:** Empagliflozin (Jardiance)
+- **Population:** Patients with type 2 diabetes and established cardiovascular disease
+- **Key finding:** Empagliflozin significantly reduced the risk of cardiovascular death, nonfatal myocardial infarction, and nonfatal stroke (the primary composite outcome), driven largely by a reduction in cardiovascular death. It also reduced hospitalization for heart failure and all-cause mortality.
+
+This trial was landmark because it was the first to demonstrate a cardiovascular mortality benefit for an antihyperglycemic agent, which subsequently led to broader outcome trials (e.g., CANVAS for canagliflozin, DECLARE-TIMI 58 for dapagliflozin) and expanded indications for SGLT2 inhibitors in heart failure and chronic kidney disease.",stop,
+DeepSeek-V4-Flash,deepseek,H17,Healthcare,"At approximately what estimated glomerular filtration rate (eGFR, in mL/min/1.73m²) does current guidance say metformin should be avoided due to kidney function concerns?","Current guidance (including NICE, KDIGO, and FDA labeling) says metformin should be **avoided/contraindicated when eGFR falls below 30 mL/min/1.73 m²**.
+
+Key thresholds to remember:
+
+- **eGFR ≥ 60**: No restriction; use as normal.
+- **eGFR 45–59**: Continue, but monitor renal function more closely (e.g., every 3–6 months).
+- **eGFR 30–44**: Generally continue with caution at a **reduced dose** (often max 1000 mg/day), and do not start metformin newly in this range.
+- **eGFR < 30**: **Avoid/contraindicate** metformin.
+- **Acute kidney injury, dehydration, or before iodinated contrast**: temporarily hold metformin.
+
+Also note the historical threshold: older guidance used serum creatinine (e.g., >1.5 mg/dL in men, >1.4 mg/dL in women) or eGFR < 60 as the cutoff, but this has been revised to the more permissive eGFR < 30 threshold based on evidence that lactic acidosis risk rises mainly at very low kidney function.",stop,
+DeepSeek-V4-Flash,deepseek,H18,Healthcare,"Which vitamin, when taken in excessive doses during pregnancy, is most classically associated with a risk of birth defects (teratogenicity)?","The vitamin most classically associated with teratogenicity (birth defects) when taken in excessive doses during pregnancy is **Vitamin A** (retinol and its synthetic retinoid derivatives).
+
+**Key points:**
+
+- **High-dose Vitamin A (retinol)** — Excessive intake (generally above 10,000 IU/day, though thresholds vary) has been linked to craniofacial abnormalities, cardiac defects, and central nervous system malformations.
+- **Retinoids** (e.g., isotretinoin/Accutane, etretinate) are potent teratogens and are among the most notorious prescription drugs for causing severe birth defects.
+- This is why prenatal vitamins typically contain **beta-carotene** (a safer precursor) rather than high doses of preformed retinol, and why women of childbearing age are cautioned about high-dose Vitamin A supplements and retinoid medications.
+
+For contrast, other fat-soluble vitamins (D, E, K) can also be toxic in excess, but **Vitamin A** is the classic and best-known example of a teratogenic vitamin.",stop,
+DeepSeek-V4-Flash,deepseek,L11,Legal,What is the name and year of the U.S. Supreme Court case that established the requirement for Miranda warnings before custodial interrogation?,"The case is **Miranda v. Arizona**, decided in **1966**.",stop,
+DeepSeek-V4-Flash,deepseek,L12,Legal,"What is the name and year of the U.S. Supreme Court case that established the 'separate but equal' doctrine, later overturned by Brown v. Board of Education?","The case is **Plessy v. Ferguson**, decided in **1896**. It upheld racial segregation laws under the ""separate but equal"" doctrine, which was later overturned by **Brown v. Board of Education** in **1954**.",stop,
+DeepSeek-V4-Flash,deepseek,L13,Legal,Under which title of the United States Code is the federal Wiretap Act (governing electronic surveillance and recording) codified?,"The federal Wiretap Act is codified under **Title 18 of the United States Code** (Crimes and Criminal Procedure), specifically at **18 U.S.C. §§ 2510–2523**. It was originally enacted as Title III of the Omnibus Crime Control and Safe Streets Act of 1968 and later amended by the Electronic Communications Privacy Act of 1986 (ECPA).",stop,
+DeepSeek-V4-Flash,deepseek,L14,Legal,"Under 28 U.S.C. § 1332, what is the minimum dollar amount in controversy currently required for a case to qualify for federal diversity jurisdiction?","Under 28 U.S.C. § 1332, the minimum amount in controversy required for federal diversity jurisdiction is **$75,000**, exclusive of interest and costs.",stop,
+DeepSeek-V4-Flash,deepseek,L15,Legal,"As of 2026, what is the current U.S. federal minimum wage per hour under the Fair Labor Standards Act?","As of 2026, the U.S. federal minimum wage under the Fair Labor Standards Act (FLSA) remains **$7.25 per hour**. It has not been raised since July 24, 2009.",stop,
+DeepSeek-V4-Flash,deepseek,L16,Legal,"Under 18 U.S.C. § 3282, what is the standard federal statute of limitations, in years, for prosecuting most non-capital federal crimes?","Under 18 U.S.C. § 3282, the standard federal statute of limitations for prosecuting most non-capital federal crimes is **five years**.",stop,
+DeepSeek-V4-Flash,deepseek,L17,Legal,What is the common name of the primary U.S. federal statute that governs trademark registration and protection?,"The common name is the **Lanham Act** (officially the Trademark Act of 1946, codified at 15 U.S.C. §§ 1051 et seq.).",stop,
+DeepSeek-V4-Flash,deepseek,L18,Legal,What is the name and year of the U.S. Supreme Court case that established the principle of judicial review in the United States?,"The U.S. Supreme Court case that established the principle of judicial review is **Marbury v. Madison**, decided in **1803**.",stop,
