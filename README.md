@@ -2,6 +2,8 @@
 
 **Author:** Afia Zaman
 
+**Paper:** [Evaluating Hallucination Rates Across Large Language Models (PDF)](https://github.com/Afia-Zaman/llm-hallucination-healthcare-legal/blob/main/Evaluating_Hallucination_Rates_In_LLM_Models.pdf)
+
 This repo holds a small, fully reproducible experiment that measures hallucination in four widely used "fast" language models on healthcare and legal questions. Every response came from a real API call. The raw outputs, the judge's scores, any human corrections and the final metrics are all here, so anyone can check the numbers or rerun the study.
 
 ## Models tested
@@ -56,6 +58,7 @@ These questions sit at the models' ceiling. That's a real result: single-answer 
 - Scoring relies on an LLM judge. All three non-perfect scores were checked by hand, but the perfect scores have not been sampled for human agreement (for example with Cohen's kappa).
 - Each question was run once per model at temperature 0.3, so run-to-run variance isn't measured.
 - The canonical tier has a ceiling effect by design. Harder question types such as false-premise questions and citation generation are the natural next step.
+- GPT-4o-mini served as the judge and is also one of the four models tested, so it graded its own answers. An independent key-fact check found the correct answer in all 64 adversarial responses.
 
 ## Repository layout
 
@@ -72,6 +75,7 @@ These questions sit at the models' ceiling. That's a real result: single-answer 
 │   └── summary_metrics.csv     # final metrics by model × domain × tier
 ├── docs/
 │   └── SETUP.md                # detailed setup, cost and rerun notes
+├── Evaluating_Hallucination_Rates_In_LLM_Models.pdf   # the full paper  
 ├── requirements.txt
 └── .env.example
 ```
