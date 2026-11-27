@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 QUESTIONS_PATH = ROOT / "data" / "questions.json"
 SCORED_PATH = ROOT / "results" / "scored_responses.csv"
+SUMMARY_PATH = ROOT / "results" / "summary_metrics.csv"
 
 # Rough capability/scale tier for RQ4 (edit if your model line-up differs).
 # These four are all "small/fast" tier models within their own families,
@@ -36,6 +37,9 @@ SCORED_PATH = ROOT / "results" / "scored_responses.csv"
 # rather than treating it as a clean parameter-count comparison.
 # Lower rank number = smaller/cheaper tier.
 MODEL_SCALE_RANK = {
+    "Qwen2.5-0.5B-Instruct": 0,  # open-source extension (results/open_source/)
+    "Qwen2.5-1.5B-Instruct": 0,
+    "Qwen2.5-3B-Instruct": 0,
     "DeepSeek-V4-Flash": 1,
     "Gemini-3.1-Flash-Lite": 1,
     "GPT-4o-mini": 2,
@@ -101,6 +105,7 @@ def main():
     canonical = grouped[grouped["tier"] == "canonical"]
     pivot = canonical.pivot(index="model_label", columns="domain", values="perfect_rate")
     domains = list(pivot.columns)
+    d1_vals = d2_vals = None
     if len(domains) == 2:
         pivot["domain_variance"] = pivot[domains].std(axis=1, ddof=0)
         pivot["consistency_score"] = 1 - (pivot[domains].max(axis=1) - pivot[domains].min(axis=1)) / pivot[domains].max(axis=1)
@@ -108,6 +113,10 @@ def main():
         print(pivot.to_string())
 
         d1_vals, d2_vals = pivot[domains[0]], pivot[domains[1]]
+        if len(d1_vals) < 2:
+            print("\n(Only one model in this file -- skipping the cross-model domain t-test.)")
+            d1_vals = None
+    if len(domains) == 2 and d1_vals is not None:
         t_stat, p_val = stats.ttest_rel(d1_vals, d2_vals)
         print(f"\n=== Paired t-test: {domains[0]} vs {domains[1]} (canonical tier, n={len(d1_vals)} models) ===")
         print(f"t = {t_stat:.3f}, p = {p_val:.3f}")
@@ -122,7 +131,9 @@ def main():
     # === Spearman correlation: model scale rank vs overall performance rank ===
     overall_pr = df.groupby("model_label")["perfect_rate_flag"].mean()
     scale_ranks = overall_pr.index.map(lambda m: MODEL_SCALE_RANK.get(m))
-    if scale_ranks.isnull().any():
+    if len(overall_pr) < 3:
+        print("\n(Fewer than 3 models in this file -- skipping the Spearman correlation.)")
+    elif scale_ranks.isnull().any():
         print("\n[!] Some models in your data aren't in MODEL_SCALE_RANK -- edit the dict at the top of this script.")
     else:
         rho, p_val = stats.spearmanr(scale_ranks, overall_pr.values)
@@ -131,9 +142,16 @@ def main():
         if len(overall_pr) < 8:
             print("NOTE: n is small here too -- report this as exploratory, not as strong evidence of a scale effect.")
 
-    grouped.to_csv(ROOT / "results" / "summary_metrics.csv", index=False)
-    print("\nSaved results/summary_metrics.csv")
+    SUMMARY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    grouped.to_csv(SUMMARY_PATH, index=False)
+    print(f"\nSaved {SUMMARY_PATH}")
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Compute metrics from scored responses.")
+    parser.add_argument("--scored", default=str(SCORED_PATH), help="scored responses CSV")
+    parser.add_argument("--out", default=str(SUMMARY_PATH), help="where to write the summary metrics CSV")
+    args = parser.parse_args()
+    SCORED_PATH, SUMMARY_PATH = Path(args.scored), Path(args.out)
     main()

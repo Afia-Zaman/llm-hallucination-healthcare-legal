@@ -1,5 +1,7 @@
 # Do Fast-Tier LLMs Hallucinate on Healthcare and Legal Questions?
 
+[![tests](https://github.com/Afia-Zaman/llm-hallucination-healthcare-legal/actions/workflows/ci.yml/badge.svg)](https://github.com/Afia-Zaman/llm-hallucination-healthcare-legal/actions/workflows/ci.yml)
+
 **Author:** Afia Zaman
 
 **Paper:** [Evaluating Hallucination Rates Across Large Language Models (PDF)](https://github.com/Afia-Zaman/llm-hallucination-healthcare-legal/blob/main/Evaluating_Hallucination_Rates_In_LLM_Models.pdf)
@@ -64,19 +66,27 @@ These questions sit at the models' ceiling. That's a real result: single-answer 
 
 ```
 ├── data/
-│   └── questions.json          # 36 questions with domain, tier and weighted constraints
+│   └── questions.json              # 36 questions with domain, tier and weighted constraints
 ├── src/
-│   ├── run_experiment.py       # queries all four models, records finish_reason
-│   ├── score_responses.py      # LLM-judge scoring against the constraints
-│   └── analyze_results.py      # PR, CS, tier and domain comparisons, t-tests, Spearman
+│   ├── run_experiment.py           # queries the four API models, records finish_reason
+│   ├── run_open_source_model.py    # runs an open-source Hugging Face model locally (PyTorch)
+│   ├── score_responses.py          # LLM-judge scoring against the constraints
+│   └── analyze_results.py          # PR, CS, tier and domain comparisons, t-tests, Spearman
 ├── results/
-│   ├── raw_responses.csv       # every model response, unedited
-│   ├── scored_responses.csv    # judge scores + human corrections
-│   └── summary_metrics.csv     # final metrics by model × domain × tier
+│   ├── raw_responses.csv           # every model response, unedited
+│   ├── scored_responses.csv        # judge scores + human corrections
+│   └── summary_metrics.csv         # final metrics by model × domain × tier
+├── tests/                          # regression tests for the bugs in docs/DEBUGGING.md
+├── notebooks/
+│   └── run_open_source_model_colab.ipynb   # run the open-source model on a free Colab GPU
 ├── docs/
-│   └── SETUP.md                # detailed setup, cost and rerun notes
-├── Evaluating_Hallucination_Rates_In_LLM_Models.pdf   # the full paper  
-├── requirements.txt
+│   ├── SETUP.md                    # detailed setup, cost and rerun notes
+│   └── DEBUGGING.md                # bugs found while building the pipeline, and their fixes
+├── Evaluating_Hallucination_Rates_In_LLM_Models.pdf   # the full paper
+├── Dockerfile
+├── requirements.txt                # core dependencies
+├── requirements-dev.txt            # + pytest
+├── requirements-open-source.txt    # + PyTorch and Transformers
 └── .env.example
 ```
 
@@ -99,6 +109,46 @@ python src/analyze_results.py     # writes results/summary_metrics.csv
 ```
 
 Every script can be rerun safely. Each one skips (model, question) pairs that already succeeded, so a partial failure only retries the rows that failed.
+
+## Run it with Docker
+
+The image holds the code, data and dependencies, so the results reproduce on any machine with Docker:
+
+```bash
+docker build -t llm-hallucination .
+docker run --rm llm-hallucination                        # recompute every metric (no API keys needed)
+docker run --rm llm-hallucination python -m pytest -q    # run the test suite
+```
+
+To rerun the API experiment inside the container, pass your keys and mount the results folder:
+
+```bash
+docker run --rm --env-file .env -v "$(pwd)/results:/app/results" llm-hallucination python src/run_experiment.py
+```
+
+GitHub Actions builds the image and runs the tests on every push (see the badge at the top).
+
+## Open-source model (Hugging Face)
+
+`src/run_open_source_model.py` runs an open-source model from the Hugging Face Hub locally with PyTorch and Transformers, then saves its answers in the same format as the API models, so the same judge and analysis apply. The default is Qwen2.5-1.5B-Instruct, which runs on a laptop or a free Colab GPU. The easiest way to run it is [the Colab notebook](notebooks/run_open_source_model_colab.ipynb). To run it locally:
+
+```bash
+pip install -r requirements-open-source.txt
+python src/run_open_source_model.py
+python src/score_responses.py --raw results/open_source/raw_responses.csv --out results/open_source/scored_responses.csv
+python src/analyze_results.py --scored results/open_source/scored_responses.csv --out results/open_source/summary_metrics.csv
+```
+
+Open-source results are kept in `results/open_source/`, separate from the published API results.
+
+## Tests
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+The 15 tests cover truncation detection, resuming partial runs, judge-output parsing, human corrections, and an exact check that the published metrics reproduce from the saved data. [docs/DEBUGGING.md](docs/DEBUGGING.md) explains the bug behind each one.
 
 ## License
 

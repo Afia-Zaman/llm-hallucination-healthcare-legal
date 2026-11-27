@@ -60,6 +60,7 @@ FINISH_REASON_OK = {
     "anthropic": "end_turn",
     "google": "STOP",
     "deepseek": "stop",
+    "huggingface": "stop",  # open-source models run locally (src/run_open_source_model.py)
 }
 
 JUDGE_PROMPT_TEMPLATE = """You are a strict evaluator checking whether an AI response satisfies a list of factual/behavioral constraints.
@@ -195,7 +196,7 @@ def main():
             if not row.get("error"):
                 already_scored.add((row["model_label"], row["question_id"]))
 
-    OUTPUT_PATH.parent.mkdir(exist_ok=True)
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     with open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as out_f:
         writer = csv.DictWriter(out_f, fieldnames=fieldnames)
@@ -276,4 +277,10 @@ def main():
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Score raw model responses with the LLM judge.")
+    parser.add_argument("--raw", default=str(RAW_PATH), help="raw responses CSV to score")
+    parser.add_argument("--out", default=str(OUTPUT_PATH), help="where to write scored responses")
+    args = parser.parse_args()
+    RAW_PATH, OUTPUT_PATH = Path(args.raw), Path(args.out)
     main()
