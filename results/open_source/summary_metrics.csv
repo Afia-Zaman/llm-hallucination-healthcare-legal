@@ -1,0 +1,5 @@
+model_label,domain,tier,perfect_rate,constraint_score,n
+Qwen2.5-1.5B-Instruct,Healthcare,adversarial,0.5,6.25,8
+Qwen2.5-1.5B-Instruct,Healthcare,canonical,0.7,9.2,10
+Qwen2.5-1.5B-Instruct,Legal,adversarial,0.8571428571428571,9.428571428571429,7
+Qwen2.5-1.5B-Instruct,Legal,canonical,0.7,8.8,10
