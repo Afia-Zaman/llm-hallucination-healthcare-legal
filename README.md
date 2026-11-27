@@ -75,7 +75,8 @@ These questions sit at the models' ceiling. That's a real result: single-answer 
 ├── results/
 │   ├── raw_responses.csv           # every model response, unedited
 │   ├── scored_responses.csv        # judge scores + human corrections
-│   └── summary_metrics.csv         # final metrics by model × domain × tier
+│   ├── summary_metrics.csv         # final metrics by model × domain × tier
+│   └── open_source/                # Qwen2.5-1.5B results and manual review notes
 ├── tests/                          # regression tests for the bugs in docs/DEBUGGING.md
 ├── notebooks/
 │   └── run_open_source_model_colab.ipynb   # run the open-source model on a free Colab GPU
@@ -140,6 +141,20 @@ python src/analyze_results.py --scored results/open_source/scored_responses.csv 
 ```
 
 Open-source results are kept in `results/open_source/`, separate from the published API results.
+
+### Results: Qwen2.5-1.5B-Instruct
+
+Run on a Colab T4 GPU with the same questions, settings and judge as the API models. Every penalized or flagged answer was reviewed by hand (see [REVIEW_NOTES.md](results/open_source/REVIEW_NOTES.md)).
+
+| | Perfect Rate | Answers scored |
+|---|---|---|
+| Four API models (combined) | 99% | 144 |
+| Qwen2.5-1.5B-Instruct | 69% | 35 of 36 |
+
+Unlike the API models, the small open-source model hallucinated: it gave 2019 as semaglutide's FDA approval year (2017), a 12–36 hour half-life for amiodarone (about two months), folic acid instead of vitamin A as the vitamin linked to birth defects, and $7.40 as the federal minimum wage ($7.25). One answer (L17) never finished: the model looped through invented section titles until it hit the token limit, so it was not scored.
+
+Two findings matter beyond this model. The judge repeated the exact H12 scoring error it made on Gemini, again calling a correct answer accurate while scoring it 6/10. And five answers met every constraint while still containing a false claim, which shows that constraint-based scoring can miss errors in supporting details.
+
 
 ## Tests
 
