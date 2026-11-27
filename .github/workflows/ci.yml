@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Run test suite
+        run: python -m pytest -q
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build image
+        run: docker build -t llm-hallucination .
+      - name: Reproduce published metrics inside the container
+        run: docker run --rm llm-hallucination
+      - name: Run test suite inside the container
+        run: docker run --rm llm-hallucination python -m pytest -q
